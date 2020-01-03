@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18c95c12-3bf1-4499-b4e7-4e1cd93f4bc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/orderbook_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/orderbook_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/0233e955-79a2-4ac7-9cba-78e6f09deec5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/02d77618-78f9-44cf-a11b-5246a040db9d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/03368717-bb23-4714-800a-c79f69d2b343-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/04516b48-17e0-4ab7-a22f-61ea9a6cca1f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/0f97e7df-a8b1-4e6f-a9eb-cb4e82063df2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/1b81a31a-8b84-4550-8930-e248dadf3d67-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/1f55db8a-f3f6-4ac8-83e9-80e0c1af6287-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/21a64ff8-0b10-494d-a2a8-79cd5cccaf93-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/235ff832-aae5-4543-b5ac-0e614e84fc8f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/24bd2167-2e99-41b1-b926-c8f7f3f1083c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/2a7fdc82-608b-4164-a60a-6f0c5fdab042-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/2ea5e471-2696-4a81-8a65-5b2cffc46cdb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/3b1915a5-c264-4623-8c3e-42adc37dc17d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/3b5c5282-3623-473c-9079-136de416e656-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/3ece9a08-b160-46e5-94a3-cbfb3acf1bb2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/463c72e6-89c3-4054-a9ff-7ed3b957c2cb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/46b157e9-5fcc-4afa-8c4e-ac4e71258c5b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/4d77cd64-7f06-43dc-8cb9-e514ea42f49e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/4e518264-b043-4744-826c-b134c5b60b05-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/52209b4b-af5c-4171-9ee6-64e1f826be02-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/555ab01d-61f0-414e-a64f-9498dc8dbb5b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/5584baa4-c98d-49fa-a6cd-313af985af88-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/56d1a06d-a6c5-41e3-ba09-cf5ca72e0a1a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/620431b3-62e9-467b-9796-b9d8ceda89cd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/627f6255-88c5-4534-bf4a-623dbeb82420-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/64835917-4210-4191-b668-cb58d8533b75-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/66bc427d-9b99-4f87-8349-e24efce098c0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/696aa786-098b-4f61-bf1a-5df2453e3a8d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/6b1c3c0f-296d-4c75-9860-6956fb345afb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/6f3712cc-aaad-471f-a12e-432a8d1608c9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/6feca6e4-7c02-4892-b698-dda525049776-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/704af149-88b2-4d7b-861d-d29aa0600f45-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/7266eac5-6f07-4c75-af74-9287ebe8386b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/7946f771-3c9f-4f15-8049-d44509a839e8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/7c072e92-880e-412d-8ef7-238c9707503c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/800ddbb3-b9da-4c93-bc1d-6974bb5c8622-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/82563cc2-d466-4f63-a2ea-9a8fe8b6d241-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/84991f5c-8d65-40ba-b18e-29f2d75fd47d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/8553a0a2-7956-4ebb-96f4-72c40f7cb9a9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/87a326b6-bbe1-4e97-82ec-f9147f2e47db-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/8d25af69-9114-4eb3-9551-2ee708fc1620-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/8d529a08-a057-4e2c-9eeb-39aa6cfce1f4-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/91f61297-a463-480c-8dab-67cf2c975fc6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/93832c49-c4e0-42de-8bbe-4844de0141ea-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/9494ee52-dd8d-4454-a281-1e8d169e78de-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/9b7dd85c-689b-465d-8212-79e3f85de02d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/9e3138c3-716e-4e40-ae6e-e39ec6f3e355-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/a9f986e8-d75d-43b4-875d-687cf0766f23-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/ab0674d2-e5c6-452f-b9f4-7d18c15f8be1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/adbaa3b3-47bf-4484-89f0-60566f569faa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/b4bcde56-3c69-4b36-95ba-812f7a662140-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/b9549ec0-c694-4e3f-a76e-63eeff3467b4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/b9a665ce-558d-4c2d-81b8-c83183ae1b3f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/bb517a83-fe9a-40cb-b7f7-560ad3b8ceea-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/bb5d8a4d-9e20-40e8-9774-adb748d9c6e9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/c2f1c9b4-047f-4390-add4-de00060293b6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/c80f9b80-6a96-4471-bd88-704ff413a11d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/ca95e3b0-afdd-472b-ad19-cfc1fd37caa8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/cbe8597b-bbeb-4d2d-b6d2-1f1d5cbe5cbd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/ce9a2260-5137-43f9-bac4-6a00a1669517-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/d882cea9-3e20-4855-a1e5-9678a6395041-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/d9357125-0885-4c69-bfaf-5cb2a182dfb3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/d9ce4dab-7dc5-4ffa-8eb5-4df676845959-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/d9d84d3a-7952-4954-b4f6-5c4cdcb4380e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/da211b7f-b797-4556-b322-0e67f9518650-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/df822e6b-7d50-478c-b55f-5d28f933a624-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/e0c5f461-e6dd-4cfd-8d56-a8d1e4cdd9c6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/e588dd5f-74e1-4a41-9a39-a2f987d063dd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/f3f8b7c8-b9fe-4707-8b9b-28c242576d8c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/allure/ffa1e7ff-3d67-42f2-89e0-601a7fa0ecdc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-12-27 1506.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-12-27 1508.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-12-30 1636.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-12-30 1638.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_locators/orderbook_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_locators/orderbook_page_locator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_ojbects/orderbook_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_ojbects/orderbook_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test_orderbook.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_orderbook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/demo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/lefu_fuwu.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/orderbook_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="53" column="37" lean-forward="true" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_locators/orderbook_page_locator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-145">
+              <caret line="93" column="73" selection-start-line="93" selection-start-column="73" selection-end-line="93" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_ojbects/orderbook_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="718" lean-forward="true" selection-start-line="718" selection-end-line="718" />
+              <folding>
+                <element signature="e#527#15132#0" />
+                <element signature="e#15210#19931#0" />
+                <element signature="e#20031#25207#0" />
+                <element signature="e#25285#26452#0" />
+                <element signature="e#27059#27964#0" />
+                <element signature="e#27999#28900#0" />
+                <element signature="e#38519#40317#0" />
+                <element signature="e#40323#40354#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_cases/test_orderbook.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_ojbects/logout_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/tools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="92" column="28" lean-forward="true" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+              <folding>
+                <element signature="e#169#178#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/common/image_to_text.py" />
+        <option value="$PROJECT_DIR$/API/demo.py" />
+        <option value="$PROJECT_DIR$/util/demo.py" />
+        <option value="$PROJECT_DIR$/common/tools.py" />
+        <option value="$PROJECT_DIR$/page_locators/orderbook_page_locator.py" />
+        <option value="$PROJECT_DIR$/page_ojbects/orderbook_page.py" />
+        <option value="$PROJECT_DIR$/test_cases/test_orderbook.py" />
+        <option value="$PROJECT_DIR$/data/orderbook_data.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="app_automation_sh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_automation_sh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_automation_sh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_automation_sh" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_automation_sh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_automation_sh" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_automation_sh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_automation_sh" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\app_automation_sh" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="app_automation_sh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="app_automation_sh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="app_automation_sh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/tools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.tools" />
+        <item itemvalue="Python.demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18c95c12-3bf1-4499-b4e7-4e1cd93f4bc9" name="Default Changelist" comment="" />
+      <created>1578030892964</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578030892964</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.53412783" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/common/dir_config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/image_to_text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="e#166#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/lefu_fuwu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-946" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/demo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#166#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="78" selection-start-line="78" selection-end-line="81" selection-end-column="10" />
+          <folding>
+            <element signature="e#240#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/datedelta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3259">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-603">
+          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_locators/orderbook_page_locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="93" column="73" selection-start-line="93" selection-start-column="73" selection-end-line="93" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ojbects/logout_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/Web_Autotest_2020-01-03 1740.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/Web_Autotest_2020-01-03 1737.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-1264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/Web_Autotest_2020-01-03 1741.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="130">
+          <caret line="55" column="169" lean-forward="true" selection-start-line="55" selection-start-column="146" selection-end-line="55" selection-end-column="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/Web_Autotest_2020-01-03 1749.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/Web_Autotest_2020-01-03 1752.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ojbects/orderbook_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="718" lean-forward="true" selection-start-line="718" selection-end-line="718" />
+          <folding>
+            <element signature="e#527#15132#0" />
+            <element signature="e#15210#19931#0" />
+            <element signature="e#20031#25207#0" />
+            <element signature="e#25285#26452#0" />
+            <element signature="e#27059#27964#0" />
+            <element signature="e#27999#28900#0" />
+            <element signature="e#38519#40317#0" />
+            <element signature="e#40323#40354#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_orderbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/orderbook_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="53" column="37" lean-forward="true" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="92" column="28" lean-forward="true" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+          <folding>
+            <element signature="e#169#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

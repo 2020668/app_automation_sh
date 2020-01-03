@@ -491,8 +491,8 @@ class OrderBookPage(BasePage):
         return self
 
     # 账单筛选
-    def screen_order(self, login_phone, login_pwd, main_store_name, store_name, store_id, time_start, time_end,
-                     terminal_name, terminal_id, type_source, status):
+    def screen_order(self, login_phone, login_pwd, main_store_name, store_name, store_id, time_desc,
+                     time_start, time_end, terminal_name, terminal_id, type_source, status):
 
         store_name_loc = MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("{}")'.format(store_name)
 
@@ -502,6 +502,15 @@ class OrderBookPage(BasePage):
         self.wait_ele_visible(loc=Loc.screen_loc, img_desc="筛选按钮")
         self.click_element(loc=Loc.screen_loc, img_desc="筛选按钮")
 
+# ================================= C H O I C E     T I M E =================================
+
+        # 快速选择时间区域 本月 近7天 近24小时
+        if time_desc:
+            time_desc_loc = MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("{}")'.format(time_desc)
+            self.wait_ele_visible(loc=time_desc_loc, img_desc="时间描述-->{}".format(time_desc))
+            self.click_element(loc=time_desc_loc, img_desc="时间描述-->{}".format(time_desc))
+
+        # 自定义开始时间和结束时间
         if time_start:
             self.wait_ele_visible(loc=Loc.start_time_loc, img_desc="开始时间")
             self.click_element(loc=Loc.start_time_loc, img_desc="开始时间")
@@ -546,12 +555,15 @@ class OrderBookPage(BasePage):
             self.wait_ele_visible(loc=Loc.time_confirm_loc, img_desc="选择时间确定按钮")
             self.click_element(loc=Loc.time_confirm_loc, img_desc="选择时间确定按钮")
 
-        # 获取滑动选择的开始时间和结束时间
+        # 获取滑动选择的开始时间和结束时间 包括选择的固定时间后自动写入的时间
         self.wait_ele_visible(loc=Loc.start_time_loc, img_desc="开始时间")
         api_time_start = self.get_text(loc=Loc.start_time_loc, img_desc="开始时间")
 
         self.wait_ele_visible(loc=Loc.end_time_loc, img_desc="结束时间")
         api_time_end = self.get_text(loc=Loc.end_time_loc, img_desc="结束时间")
+
+
+# ================================= C H O I C E     S T O R E =================================
 
         if store_name:
 
@@ -622,7 +634,9 @@ class OrderBookPage(BasePage):
         self.wait_ele_visible(loc=Loc.screen_result_start_end_time, img_desc="筛选结果中的起始时间")
         screen_result_start_end_time = self.get_text(loc=Loc.screen_result_start_end_time, img_desc="筛选结果中的起始时间")
         screen_result_start_time = screen_result_start_end_time[:16]
-        screen_result_end_time = screen_result_start_end_time[22:38]
+        logging.info("筛选结果中的开始时间为-->{}".format(screen_result_start_time))
+        screen_result_end_time = screen_result_start_end_time[19:35]
+        logging.info("筛选结果中的结束时间为-->{}".format(screen_result_end_time))
 
         self.wait_ele_visible(loc=Loc.screen_result_store_name_loc, img_desc="筛选结果中的门店名称")
         screen_result_store_name = self.get_text(loc=Loc.screen_result_store_name_loc, img_desc="筛选结果中的门店名称")
@@ -664,6 +678,8 @@ class OrderBookPage(BasePage):
         else:
             payment_name = "错误"
 
+# ================================= G E T    A P I    D A T A =================================
+
         # 转换支付方式 供接口调用
         if type_source == "all":
             api_type_source = ""
@@ -683,12 +699,15 @@ class OrderBookPage(BasePage):
 
         # 调用接口 获取数据 与APP查询的结果比对
         # 判断全部和部分门店
-        if main_store_name == store_name:
-            api_store_id = ""
-            api_store_name = "全部门店"
-        else:
+        # if main_store_name == store_name:
+        #     api_store_id = ""
+        #     api_store_name = "全部门店"
+        if store_name:
             api_store_id = store_id
             api_store_name = "指定门店"
+        else:
+            api_store_id = ""
+            api_store_name = "全部门店"
 
         # 判断全部和部分设备
         if terminal_name:
@@ -704,40 +723,19 @@ class OrderBookPage(BasePage):
         self.wait_ele_visible(loc=Loc.order_list_back_loc, img_desc="账单列表的返回按钮")
         self.click_element(loc=Loc.order_list_back_loc, img_desc="账单列表的返回按钮")
 
-        # api_res = api_my_order_book(login_phone=login_phone,
-        #                             login_pwd=login_pwd,
-        #                             page="1",
-        #                             time_start=api_time_start,
-        #                             time_end=api_time_end,
-        #                             store_name=api_store_name,
-        #                             store_id=api_store_id,
-        #                             order_status=api_status,
-        #                             terminal_name=api_terminal_name,
-        #                             terminal_id=api_terminal_id,
-        #                             type_source=type_source)
-
         # 断言筛选后的起始时间、门店名称、收银终端、支付方式、支付状态 与 测试数据是否一致
+        # 筛选之后需要调接口返回的数据 在测试脚本test_那边断言
         assert screen_result_start_time == api_time_start
 
         assert screen_result_end_time == api_time_end
 
-        assert screen_result_store_name == store_name
+        assert screen_result_store_name == api_store_name
 
         assert screen_result_payment == payment_name
 
         assert screen_result_terminal == api_terminal_name
 
         assert screen_result_status == status_name
-
-        # assert screen_result_success_num == api_res["success_count"]
-        #
-        # assert screen_result_success_amount == api_res["success_amount"]
-        #
-        # assert screen_result_refund_num == api_res["refund_count"]
-        #
-        # assert screen_result_refund_amount == api_res["refund_amount"]
-        #
-        # time.sleep(1)
 
         # 在测试类中调用接口 返回接口必须的数据 以及供断言所需的数据
         return {"screen_result_success_num": screen_result_success_num,

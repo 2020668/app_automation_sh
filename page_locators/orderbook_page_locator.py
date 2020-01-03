@@ -102,6 +102,15 @@ class OrderBookPageLocator(object):
     # 账单列表页的筛选按钮
     screen_loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/tv_title_zhangdan"
 
+    # 本月按钮
+    this_month_button_loc = MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("本月")'
+
+    # 近7天按钮
+    near_seven_days_button_loc = MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("近7天")'
+
+    # 近24小时
+    near_twenty_four_hours_button_loc = MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("近24小时")'
+
     # 开始时间按钮
     start_time_loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/nct_start_time"
 
@@ -223,4 +232,5 @@ class OrderBookPageLocator(object):
     screen_result_list_time_loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/tv_time"
 
     # 筛选结果页的返回按钮
-    screen_back_loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/iv_back"
+    # screen_back_loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/iv_back"
+    screen_back_loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/back_iv"

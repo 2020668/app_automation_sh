@@ -1,0 +1,127 @@
+ Fri, 03 Jan 2020 18:04:04  INFO basepage.py wait_ele_visible [ line:42 ] 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:01.656000
+ Fri, 03 Jan 2020 18:04:04  INFO basepage.py wait_ele_visible [ line:42 ] 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.114000
+ Fri, 03 Jan 2020 18:04:04  INFO basepage.py get_element [ line:79 ] 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功
+ Fri, 03 Jan 2020 18:04:05  INFO basepage.py input_text [ line:148 ] 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：18971335925 成功！
+ Fri, 03 Jan 2020 18:04:05  INFO basepage.py wait_ele_visible [ line:42 ] 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:00.616000
+ Fri, 03 Jan 2020 18:04:05  INFO basepage.py get_element [ line:79 ] 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功
+ Fri, 03 Jan 2020 18:04:06  INFO basepage.py input_text [ line:148 ] 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值：335925 成功！
+ Fri, 03 Jan 2020 18:04:06  INFO basepage.py wait_ele_visible [ line:42 ] 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:00.578000
+ Fri, 03 Jan 2020 18:04:07  INFO basepage.py get_element [ line:79 ] 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功
+ Fri, 03 Jan 2020 18:04:07  INFO basepage.py click_element [ line:121 ] 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ Fri, 03 Jan 2020 18:04:09  INFO basepage.py wait_ele_visible [ line:42 ] 等待 账单按钮  元素  ('-android uiautomator', 'new UiSelector().text("账单")') 可见成功。耗时：0:00:01.954000
+ Fri, 03 Jan 2020 18:04:09  INFO basepage.py wait_ele_visible [ line:42 ] 等待 账单按钮  元素  ('-android uiautomator', 'new UiSelector().text("账单")') 可见成功。耗时：0:00:00.199000
+ Fri, 03 Jan 2020 18:04:09  INFO basepage.py get_element [ line:79 ] 查找  账单按钮 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 成功
+ Fri, 03 Jan 2020 18:04:12  INFO basepage.py click_element [ line:121 ] 点击  账单按钮 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 成功！
+ Fri, 03 Jan 2020 18:04:12  INFO basepage.py wait_ele_visible [ line:42 ] 等待 筛选按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 可见成功。耗时：0:00:00.143000
+ Fri, 03 Jan 2020 18:04:13  INFO basepage.py wait_ele_visible [ line:42 ] 等待 筛选按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 可见成功。耗时：0:00:00.122000
+ Fri, 03 Jan 2020 18:04:13  INFO basepage.py get_element [ line:79 ] 查找  筛选按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 成功
+ Fri, 03 Jan 2020 18:04:13  INFO basepage.py click_element [ line:121 ] 点击  筛选按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 成功！
+ Fri, 03 Jan 2020 18:04:13  INFO basepage.py wait_ele_visible [ line:42 ] 等待 开始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 可见成功。耗时：0:00:00.849000
+ Fri, 03 Jan 2020 18:04:14  INFO basepage.py wait_ele_exists [ line:57 ] 等待 开始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 存在成功。耗时：0:00:00.188000
+ Fri, 03 Jan 2020 18:04:14  INFO basepage.py get_element [ line:79 ] 查找  开始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 成功
+ Fri, 03 Jan 2020 18:04:14  INFO basepage.py get_text [ line:185 ] 获取 开始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 的文本值为:2020-01-01 00:00
+ Fri, 03 Jan 2020 18:04:14  INFO basepage.py wait_ele_visible [ line:42 ] 等待 结束时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 可见成功。耗时：0:00:00.123000
+ Fri, 03 Jan 2020 18:04:14  INFO basepage.py wait_ele_exists [ line:57 ] 等待 结束时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 存在成功。耗时：0:00:00.085000
+ Fri, 03 Jan 2020 18:04:14  INFO basepage.py get_element [ line:79 ] 查找  结束时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 成功
+ Fri, 03 Jan 2020 18:04:14  INFO basepage.py get_text [ line:185 ] 获取 结束时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 的文本值为:2020-01-03 18:04
+ Fri, 03 Jan 2020 18:04:14  INFO basepage.py wait_ele_visible [ line:42 ] 等待 选择门店按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_store') 可见成功。耗时：0:00:00.103000
+ Fri, 03 Jan 2020 18:04:14  INFO basepage.py wait_ele_visible [ line:42 ] 等待 选择门店按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_store') 可见成功。耗时：0:00:00.094000
+ Fri, 03 Jan 2020 18:04:14  INFO basepage.py get_element [ line:79 ] 查找  选择门店按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_store') 成功
+ Fri, 03 Jan 2020 18:04:14  INFO basepage.py click_element [ line:121 ] 点击  选择门店按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_store') 成功！
+ Fri, 03 Jan 2020 18:04:15  INFO basepage.py wait_ele_visible [ line:42 ] 等待 所有门店按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/cb_all_store') 可见成功。耗时：0:00:00.966000
+ Fri, 03 Jan 2020 18:04:15  INFO basepage.py wait_ele_visible [ line:42 ] 等待 所有门店按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/cb_all_store') 可见成功。耗时：0:00:00.075000
+ Fri, 03 Jan 2020 18:04:16  INFO basepage.py get_element [ line:79 ] 查找  所有门店按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/cb_all_store') 成功
+ Fri, 03 Jan 2020 18:04:16  INFO basepage.py click_element [ line:121 ] 点击  所有门店按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/cb_all_store') 成功！
+ Fri, 03 Jan 2020 18:04:16  INFO basepage.py wait_ele_visible [ line:42 ] 等待 门店->吉野家日式料理店  元素  ('-android uiautomator', 'new UiSelector().text("吉野家日式料理店")') 可见成功。耗时：0:00:00.749000
+ Fri, 03 Jan 2020 18:04:16  INFO basepage.py wait_ele_visible [ line:42 ] 等待 门店->吉野家日式料理店  元素  ('-android uiautomator', 'new UiSelector().text("吉野家日式料理店")') 可见成功。耗时：0:00:00.116000
+ Fri, 03 Jan 2020 18:04:16  INFO basepage.py get_element [ line:79 ] 查找  门店->吉野家日式料理店 元素 ('-android uiautomator', 'new UiSelector().text("吉野家日式料理店")') 成功
+ Fri, 03 Jan 2020 18:04:17  INFO basepage.py click_element [ line:121 ] 点击  门店->吉野家日式料理店 元素 ('-android uiautomator', 'new UiSelector().text("吉野家日式料理店")') 成功！
+ Fri, 03 Jan 2020 18:04:17  INFO basepage.py wait_ele_visible [ line:42 ] 等待 选择门店后的确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_sure') 可见成功。耗时：0:00:00.087000
+ Fri, 03 Jan 2020 18:04:17  INFO basepage.py wait_ele_visible [ line:42 ] 等待 选择门店后的确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_sure') 可见成功。耗时：0:00:00.061000
+ Fri, 03 Jan 2020 18:04:17  INFO basepage.py get_element [ line:79 ] 查找  选择门店后的确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_sure') 成功
+ Fri, 03 Jan 2020 18:04:17  INFO basepage.py click_element [ line:121 ] 点击  选择门店后的确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_sure') 成功！
+ Fri, 03 Jan 2020 18:04:18  INFO basepage.py wait_ele_visible [ line:42 ] 等待 支付方式 全部 按钮  元素  ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_state").text("全部")') 可见成功。耗时：0:00:00.810000
+ Fri, 03 Jan 2020 18:04:18  INFO basepage.py wait_ele_visible [ line:42 ] 等待 支付方式 全部 按钮  元素  ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_state").text("全部")') 可见成功。耗时：0:00:00.162000
+ Fri, 03 Jan 2020 18:04:18  INFO basepage.py get_element [ line:79 ] 查找  支付方式 全部 按钮 元素 ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_state").text("全部")') 成功
+ Fri, 03 Jan 2020 18:04:19  INFO basepage.py click_element [ line:121 ] 点击  支付方式 全部 按钮 元素 ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_state").text("全部")') 成功！
+ Fri, 03 Jan 2020 18:04:19  INFO basepage.py wait_ele_visible [ line:42 ] 等待 支付状态 全部订单 按钮  元素  ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_state").text("全部订单")') 可见成功。耗时：0:00:00.186000
+ Fri, 03 Jan 2020 18:04:20  INFO basepage.py wait_ele_visible [ line:42 ] 等待 支付状态 全部订单 按钮  元素  ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_state").text("全部订单")') 可见成功。耗时：0:00:00.170000
+ Fri, 03 Jan 2020 18:04:20  INFO basepage.py get_element [ line:79 ] 查找  支付状态 全部订单 按钮 元素 ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_state").text("全部订单")') 成功
+ Fri, 03 Jan 2020 18:04:21  INFO basepage.py click_element [ line:121 ] 点击  支付状态 全部订单 按钮 元素 ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_state").text("全部订单")') 成功！
+ Fri, 03 Jan 2020 18:04:21  INFO basepage.py wait_ele_visible [ line:42 ] 等待 筛选界面的确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_confirm') 可见成功。耗时：0:00:00.163000
+ Fri, 03 Jan 2020 18:04:21  INFO basepage.py wait_ele_visible [ line:42 ] 等待 筛选界面的确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_confirm') 可见成功。耗时：0:00:00.122000
+ Fri, 03 Jan 2020 18:04:21  INFO basepage.py get_element [ line:79 ] 查找  筛选界面的确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_confirm') 成功
+ Fri, 03 Jan 2020 18:04:21  INFO basepage.py click_element [ line:121 ] 点击  筛选界面的确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_confirm') 成功！
+ Fri, 03 Jan 2020 18:04:24  INFO basepage.py wait_ele_visible [ line:42 ] 等待 筛选结果中的起始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_filter_time') 可见成功。耗时：0:00:00.122000
+ Fri, 03 Jan 2020 18:04:24  INFO basepage.py wait_ele_exists [ line:57 ] 等待 筛选结果中的起始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_filter_time') 存在成功。耗时：0:00:00.074000
+ Fri, 03 Jan 2020 18:04:24  INFO basepage.py get_element [ line:79 ] 查找  筛选结果中的起始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_filter_time') 成功
+ Fri, 03 Jan 2020 18:04:24  INFO basepage.py get_text [ line:185 ] 获取 筛选结果中的起始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_filter_time') 的文本值为:2020-01-01 00:00 - 2020-01-03 18:04
+ Fri, 03 Jan 2020 18:04:24  INFO orderbook_page.py screen_order [ line:637 ] 筛选结果中的开始时间为-->2020-01-01 00:00
+ Fri, 03 Jan 2020 18:04:24  INFO orderbook_page.py screen_order [ line:639 ] 筛选结果中的结束时间为-->2020-01-03 18:04
+ Fri, 03 Jan 2020 18:04:24  INFO basepage.py wait_ele_visible [ line:42 ] 等待 筛选结果中的门店名称  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_mendian_select') 可见成功。耗时：0:00:00.580000
+ Fri, 03 Jan 2020 18:04:24  INFO basepage.py wait_ele_exists [ line:57 ] 等待 筛选结果中的门店名称  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_mendian_select') 存在成功。耗时：0:00:00.052000
+ Fri, 03 Jan 2020 18:04:24  INFO basepage.py get_element [ line:79 ] 查找  筛选结果中的门店名称 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_mendian_select') 成功
+ Fri, 03 Jan 2020 18:04:24  INFO basepage.py get_text [ line:185 ] 获取 筛选结果中的门店名称 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_mendian_select') 的文本值为:指定门店
+ Fri, 03 Jan 2020 18:04:25  INFO basepage.py wait_ele_visible [ line:42 ] 等待 筛选结果中的支付方式  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_pay_way') 可见成功。耗时：0:00:00.098000
+ Fri, 03 Jan 2020 18:04:25  INFO basepage.py wait_ele_exists [ line:57 ] 等待 筛选结果中的支付方式  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_pay_way') 存在成功。耗时：0:00:00.074000
+ Fri, 03 Jan 2020 18:04:25  INFO basepage.py get_element [ line:79 ] 查找  筛选结果中的支付方式 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_pay_way') 成功
+ Fri, 03 Jan 2020 18:04:25  INFO basepage.py get_text [ line:185 ] 获取 筛选结果中的支付方式 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_pay_way') 的文本值为:全部
+ Fri, 03 Jan 2020 18:04:25  INFO basepage.py wait_ele_visible [ line:42 ] 等待 筛选结果中的收款笔数  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_success_count') 可见成功。耗时：0:00:00.087000
+ Fri, 03 Jan 2020 18:04:25  INFO basepage.py wait_ele_exists [ line:57 ] 等待 筛选结果中的收款笔数  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_success_count') 存在成功。耗时：0:00:00.062000
+ Fri, 03 Jan 2020 18:04:25  INFO basepage.py get_element [ line:79 ] 查找  筛选结果中的收款笔数 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_success_count') 成功
+ Fri, 03 Jan 2020 18:04:25  INFO basepage.py get_text [ line:185 ] 获取 筛选结果中的收款笔数 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_success_count') 的文本值为:1
+ Fri, 03 Jan 2020 18:04:25  INFO basepage.py wait_ele_visible [ line:42 ] 等待 筛选结果中的退款笔数  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_refund_count') 可见成功。耗时：0:00:00.101000
+ Fri, 03 Jan 2020 18:04:25  INFO basepage.py wait_ele_exists [ line:57 ] 等待 筛选结果中的退款笔数  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_refund_count') 存在成功。耗时：0:00:00.064000
+ Fri, 03 Jan 2020 18:04:25  INFO basepage.py get_element [ line:79 ] 查找  筛选结果中的退款笔数 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_refund_count') 成功
+ Fri, 03 Jan 2020 18:04:25  INFO basepage.py get_text [ line:185 ] 获取 筛选结果中的退款笔数 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_refund_count') 的文本值为:0
+ Fri, 03 Jan 2020 18:04:25  INFO basepage.py wait_ele_visible [ line:42 ] 等待 筛选结果中的收银终端  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_receive_people') 可见成功。耗时：0:00:00.094000
+ Fri, 03 Jan 2020 18:04:25  INFO basepage.py wait_ele_exists [ line:57 ] 等待 筛选结果中的收银终端  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_receive_people') 存在成功。耗时：0:00:00.054000
+ Fri, 03 Jan 2020 18:04:25  INFO basepage.py get_element [ line:79 ] 查找  筛选结果中的收银终端 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_receive_people') 成功
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py get_text [ line:185 ] 获取 筛选结果中的收银终端 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_receive_people') 的文本值为:全部终端
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py wait_ele_visible [ line:42 ] 等待 筛选结果中的支付状态  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_pay_status') 可见成功。耗时：0:00:00.104000
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py wait_ele_exists [ line:57 ] 等待 筛选结果中的支付状态  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_pay_status') 存在成功。耗时：0:00:00.055000
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py get_element [ line:79 ] 查找  筛选结果中的支付状态 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_pay_status') 成功
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py get_text [ line:185 ] 获取 筛选结果中的支付状态 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_pay_status') 的文本值为:全部
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py wait_ele_visible [ line:42 ] 等待 筛选结果中的收款金额  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_success_money') 可见成功。耗时：0:00:00.096000
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py wait_ele_exists [ line:57 ] 等待 筛选结果中的收款金额  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_success_money') 存在成功。耗时：0:00:00.061000
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py get_element [ line:79 ] 查找  筛选结果中的收款金额 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_success_money') 成功
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py get_text [ line:185 ] 获取 筛选结果中的收款金额 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_success_money') 的文本值为:0.01
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py wait_ele_visible [ line:42 ] 等待 筛选结果中的退款金额  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_refund_money') 可见成功。耗时：0:00:00.093000
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py wait_ele_exists [ line:57 ] 等待 筛选结果中的退款金额  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_refund_money') 存在成功。耗时：0:00:00.058000
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py get_element [ line:79 ] 查找  筛选结果中的退款金额 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_refund_money') 成功
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py get_text [ line:185 ] 获取 筛选结果中的退款金额 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_refund_money') 的文本值为:0.00
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py wait_ele_visible [ line:42 ] 等待 筛选结果的返回按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/back_iv') 可见成功。耗时：0:00:00.071000
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py wait_ele_visible [ line:42 ] 等待 筛选结果的返回按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/back_iv') 可见成功。耗时：0:00:00.071000
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py get_element [ line:79 ] 查找  筛选结果的返回按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/back_iv') 成功
+ Fri, 03 Jan 2020 18:04:26  INFO basepage.py click_element [ line:121 ] 点击  筛选结果的返回按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/back_iv') 成功！
+ Fri, 03 Jan 2020 18:04:27  INFO basepage.py wait_ele_visible [ line:42 ] 等待 账单列表的返回按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/back_iv') 可见成功。耗时：0:00:00.926000
+ Fri, 03 Jan 2020 18:04:27  INFO basepage.py wait_ele_visible [ line:42 ] 等待 账单列表的返回按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/back_iv') 可见成功。耗时：0:00:00.063000
+ Fri, 03 Jan 2020 18:04:27  INFO basepage.py get_element [ line:79 ] 查找  账单列表的返回按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/back_iv') 成功
+ Fri, 03 Jan 2020 18:04:28  INFO basepage.py click_element [ line:121 ] 点击  账单列表的返回按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/back_iv') 成功！
+ Fri, 03 Jan 2020 18:04:29  INFO basepage.py wait_ele_visible [ line:42 ] 等待 首页_等待 我的 元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/iv_tab_icon') 可见成功。耗时：0:00:01.220000
+ Fri, 03 Jan 2020 18:04:29  INFO basepage.py get_element [ line:79 ] 查找  首页_等待 我的 元素可见 元素 ('id', 'com.cashier.jiutongshanghu:id/iv_tab_icon') 成功
+ Fri, 03 Jan 2020 18:04:30  INFO basepage.py wait_ele_visible [ line:42 ] 等待 我的页_等待 设置 元素可见  元素  ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 可见成功。耗时：0:00:00.823000
+ Fri, 03 Jan 2020 18:04:30  INFO basepage.py wait_ele_visible [ line:42 ] 等待 我的页_设置按钮  元素  ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 可见成功。耗时：0:00:00.130000
+ Fri, 03 Jan 2020 18:04:30  INFO basepage.py get_element [ line:79 ] 查找  我的页_设置按钮 元素 ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 成功
+ Fri, 03 Jan 2020 18:04:31  INFO basepage.py click_element [ line:121 ] 点击  我的页_设置按钮 元素 ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_setting")') 成功！
+ Fri, 03 Jan 2020 18:04:31  INFO basepage.py wait_ele_visible [ line:42 ] 等待 设置页_等待 退出登录 元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 可见成功。耗时：0:00:00.122000
+ Fri, 03 Jan 2020 18:04:31  INFO basepage.py wait_ele_visible [ line:42 ] 等待 设置页_退出登录按钮按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 可见成功。耗时：0:00:00.081000
+ Fri, 03 Jan 2020 18:04:31  INFO basepage.py get_element [ line:79 ] 查找  设置页_退出登录按钮按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 成功
+ Fri, 03 Jan 2020 18:04:31  INFO basepage.py click_element [ line:121 ] 点击  设置页_退出登录按钮按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/ll_loginout') 成功！
+ Fri, 03 Jan 2020 18:04:32  INFO basepage.py wait_ele_visible [ line:42 ] 等待 退出登录弹窗_等待 确定 元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/dialog_normal_rightbtn') 可见成功。耗时：0:00:01.173000
+ Fri, 03 Jan 2020 18:04:32  INFO basepage.py wait_ele_visible [ line:42 ] 等待 退出登录弹窗_确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/dialog_normal_rightbtn') 可见成功。耗时：0:00:00.053000
+ Fri, 03 Jan 2020 18:04:32  INFO basepage.py get_element [ line:79 ] 查找  退出登录弹窗_确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/dialog_normal_rightbtn') 成功
+ Fri, 03 Jan 2020 18:04:32  INFO basepage.py click_element [ line:121 ] 点击  退出登录弹窗_确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/dialog_normal_rightbtn') 成功！
+ Fri, 03 Jan 2020 18:04:32  INFO http_request.py request [ line:64 ] 正在发送请求，请求地址：https://api.hczypay.com/api/merchant/login， 请求参数：{'phone': '18971335925', 'password': '335925', 'imei': '919dc52afd82279be4f9ff04288be30a9de665ff8fd68b437dbe93953b8e07c9', 'type': 'jg'}
+ Fri, 03 Jan 2020 18:04:33  INFO tools.py get_line_token [ line:49 ] ===================================
+ Fri, 03 Jan 2020 18:04:33  INFO tools.py get_line_token [ line:50 ] 登录请求地址--> https://api.hczypay.com/api/merchant/login
+ Fri, 03 Jan 2020 18:04:33  INFO tools.py get_line_token [ line:51 ] 登录请求参数--> {'phone': '18971335925', 'password': '335925', 'imei': '919dc52afd82279be4f9ff04288be30a9de665ff8fd68b437dbe93953b8e07c9', 'type': 'jg'}
+ Fri, 03 Jan 2020 18:04:33  INFO tools.py get_line_token [ line:52 ] 登录结果--> {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5oY3p5cGF5LmNvbS9hcGkvbWVyY2hhbnQvbG9naW4iLCJpYXQiOjE1NzgwNDU4NzIsImV4cCI6MTU4NjY4NTg3MiwibmJmIjoxNTc4MDQ1ODcyLCJqdGkiOiI2Y2Q5NGUzMGFlZDk3Y2ZlOGUxMDFhODZhM2QwNzE2YiIsInN1YiI6eyJpZCI6MTU0NDQsInVzZXJfaWQiOjE3MDMsIm1lcmNoYW50X2lkIjpudWxsLCJuYW1lIjoiMTg5NzEzMzU5MjUiLCJwaG9uZSI6IjE4OTcxMzM1OTI1IiwidHlwZSI6Im1lcmNoYW50IiwibWVyY2hhbnRfdHlwZSI6MiwicGlkIjowLCJpbWVpIjoiIiwibW9uZXkiOiIwLjAwIiwiY29uZmlnX2lkIjoiMTIzIiwic3RvcmVfaWQiOiIyMDE5MTIxNzE2MjYxNzgyMjIyIiwiTWVyY2hhbnRJZCI6IiIsImxvZ28iOm51bGx9fQ.wmlPukHzXQxfIaG9cvsPdiuWVXAGMhuoRGTYTERjwc8', 'imei': '919dc52afd82279be4f9ff04288be30a9de665ff8fd68b437dbe93953b8e07c9', 'mtype': 'jg', 'type': '2'}
+ Fri, 03 Jan 2020 18:04:33  INFO http_request.py request [ line:64 ] 正在发送请求，请求地址：https://api.hczypay.com/api/merchant/logout， 请求参数：{'phone': '18971335925', 'imei': '919dc52afd82279be4f9ff04288be30a9de665ff8fd68b437dbe93953b8e07c9', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5oY3p5cGF5LmNvbS9hcGkvbWVyY2hhbnQvbG9naW4iLCJpYXQiOjE1NzgwNDU4NzIsImV4cCI6MTU4NjY4NTg3MiwibmJmIjoxNTc4MDQ1ODcyLCJqdGkiOiI2Y2Q5NGUzMGFlZDk3Y2ZlOGUxMDFhODZhM2QwNzE2YiIsInN1YiI6eyJpZCI6MTU0NDQsInVzZXJfaWQiOjE3MDMsIm1lcmNoYW50X2lkIjpudWxsLCJuYW1lIjoiMTg5NzEzMzU5MjUiLCJwaG9uZSI6IjE4OTcxMzM1OTI1IiwidHlwZSI6Im1lcmNoYW50IiwibWVyY2hhbnRfdHlwZSI6MiwicGlkIjowLCJpbWVpIjoiIiwibW9uZXkiOiIwLjAwIiwiY29uZmlnX2lkIjoiMTIzIiwic3RvcmVfaWQiOiIyMDE5MTIxNzE2MjYxNzgyMjIyIiwiTWVyY2hhbnRJZCI6IiIsImxvZ28iOm51bGx9fQ.wmlPukHzXQxfIaG9cvsPdiuWVXAGMhuoRGTYTERjwc8'}
+ Fri, 03 Jan 2020 18:04:33  INFO tools.py logout [ line:66 ] 退出登录结果--> {'status': 1, 'msg': '操作成功', 'data': []}
+ Fri, 03 Jan 2020 18:04:34  INFO http_request.py request [ line:64 ] 正在发送请求，请求地址：https://api.hczypay.com/api/merchant/myOrderBook， 请求参数：{'page': '1', 'terminalName': '全部终端', 'terminal': '', 'time_start': '2020-01-01 00:00', 'time_end': '2020-01-03 18:04', 'type_source': '', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5oY3p5cGF5LmNvbS9hcGkvbWVyY2hhbnQvbG9naW4iLCJpYXQiOjE1NzgwNDU4NzIsImV4cCI6MTU4NjY4NTg3MiwibmJmIjoxNTc4MDQ1ODcyLCJqdGkiOiI2Y2Q5NGUzMGFlZDk3Y2ZlOGUxMDFhODZhM2QwNzE2YiIsInN1YiI6eyJpZCI6MTU0NDQsInVzZXJfaWQiOjE3MDMsIm1lcmNoYW50X2lkIjpudWxsLCJuYW1lIjoiMTg5NzEzMzU5MjUiLCJwaG9uZSI6IjE4OTcxMzM1OTI1IiwidHlwZSI6Im1lcmNoYW50IiwibWVyY2hhbnRfdHlwZSI6MiwicGlkIjowLCJpbWVpIjoiIiwibW9uZXkiOiIwLjAwIiwiY29uZmlnX2lkIjoiMTIzIiwic3RvcmVfaWQiOiIyMDE5MTIxNzE2MjYxNzgyMjIyIiwiTWVyY2hhbnRJZCI6IiIsImxvZ28iOm51bGx9fQ.wmlPukHzXQxfIaG9cvsPdiuWVXAGMhuoRGTYTERjwc8', 'storeName': '指定门店', 'store_id': '2019122413571152189', 'status': ''}
+ Fri, 03 Jan 2020 18:04:34  INFO api_screen_orderbook.py api_my_order_book [ line:60 ] ======================================
+ Fri, 03 Jan 2020 18:04:34  INFO api_screen_orderbook.py api_my_order_book [ line:61 ] 账单筛选请求地址--> https://api.hczypay.com/api/merchant/myOrderBook
+ Fri, 03 Jan 2020 18:04:34  INFO api_screen_orderbook.py api_my_order_book [ line:62 ] 账单筛选请求参数--> {'page': '1', 'terminalName': '全部终端', 'terminal': '', 'time_start': '2020-01-01 00:00', 'time_end': '2020-01-03 18:04', 'type_source': '', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5oY3p5cGF5LmNvbS9hcGkvbWVyY2hhbnQvbG9naW4iLCJpYXQiOjE1NzgwNDU4NzIsImV4cCI6MTU4NjY4NTg3MiwibmJmIjoxNTc4MDQ1ODcyLCJqdGkiOiI2Y2Q5NGUzMGFlZDk3Y2ZlOGUxMDFhODZhM2QwNzE2YiIsInN1YiI6eyJpZCI6MTU0NDQsInVzZXJfaWQiOjE3MDMsIm1lcmNoYW50X2lkIjpudWxsLCJuYW1lIjoiMTg5NzEzMzU5MjUiLCJwaG9uZSI6IjE4OTcxMzM1OTI1IiwidHlwZSI6Im1lcmNoYW50IiwibWVyY2hhbnRfdHlwZSI6MiwicGlkIjowLCJpbWVpIjoiIiwibW9uZXkiOiIwLjAwIiwiY29uZmlnX2lkIjoiMTIzIiwic3RvcmVfaWQiOiIyMDE5MTIxNzE2MjYxNzgyMjIyIiwiTWVyY2hhbnRJZCI6IiIsImxvZ28iOm51bGx9fQ.wmlPukHzXQxfIaG9cvsPdiuWVXAGMhuoRGTYTERjwc8', 'storeName': '指定门店', 'store_id': '2019122413571152189', 'status': ''}
+ Fri, 03 Jan 2020 18:04:34  INFO api_screen_orderbook.py api_my_order_book [ line:63 ] 账单筛选返回结果--> {'status': 1, 'msg': '没有任何记录', 'data': {'data': [], 'inquire': {'merchantName': '全部收款人', 'terminalName': '全部终端', 'storeName': '吉野家一分店', 'timeStart': '2020-01-01 00:00:00', 'timeEnd': '2020-01-03 18:04:59', 'success_amount': '0.00', 'success_count': '0', 'refund_amount': '0.00', 'refund_count': '0', 'typeSource': '全部', 'orderStatus': '全部'}}}
+ Fri, 03 Jan 2020 18:04:34  INFO api_screen_orderbook.py api_my_order_book [ line:64 ] ======================================

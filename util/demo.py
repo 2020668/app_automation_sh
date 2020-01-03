@@ -69,7 +69,19 @@ import os
 # os.system("allure serve output/allure")
 
 # 生成报告
-os.system("allure generate output/allure - o output/reports - -clean")
-os.system("allure open -h 192.168.2.222 -p 8080 output/reports")
+# os.system("allure generate output/allure - o output/reports - -clean")
+# os.system("allure open -h 192.168.2.222 -p 8080 output/reports")
+
+from datetime import date, datetime
+import datedelta
+
+
+now = datetime.now()
+delta = datedelta.datedelta(days=5)
+res = now + delta
+print(res)
+
+
+
 
 

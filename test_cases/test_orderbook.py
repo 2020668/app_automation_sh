@@ -70,6 +70,7 @@ class TestOrderBook(object):
                                                             main_store_name=data["main_store_name"],
                                                             store_name=data["store_name"],
                                                             store_id=data["store_id"],
+                                                            time_desc=data["time_desc"],
                                                             time_start=data["time_start"],
                                                             time_end=data["time_end"],
                                                             terminal_name=data["terminal_name"],
