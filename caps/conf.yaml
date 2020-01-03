@@ -1,0 +1,17 @@
+sex: female
+name: world
+hobby: python
+age: 20
+lists:
+  - hello
+  - hehe
+  - python12
+  - 20190215
+dicts:
+  key1: 111
+  key2: 222
+  key3: 333
+  key4: True
+
+
+#{"sex":"female","lists":["hello","hehe","python12","20190215"]}

@@ -1,0 +1,126 @@
+INFO     root:basepage.py:40 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:10.651000
+INFO     root:basepage.py:40 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.102000
+INFO     root:basepage.py:77 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功
+INFO     root:basepage.py:146 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：18971335925 成功！
+INFO     root:basepage.py:40 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:00.553000
+INFO     root:basepage.py:77 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功
+INFO     root:basepage.py:146 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值：335925 成功！
+INFO     root:basepage.py:40 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:00.559000
+INFO     root:basepage.py:77 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功
+INFO     root:basepage.py:119 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+INFO     root:basepage.py:40 等待 账单按钮  元素  ('-android uiautomator', 'new UiSelector().text("账单")') 可见成功。耗时：0:00:01.656000
+INFO     root:basepage.py:40 等待 账单按钮  元素  ('-android uiautomator', 'new UiSelector().text("账单")') 可见成功。耗时：0:00:00.175000
+INFO     root:basepage.py:77 查找  账单按钮 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 成功
+INFO     root:basepage.py:119 点击  账单按钮 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 成功！
+INFO     root:basepage.py:40 等待 筛选按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 可见成功。耗时：0:00:00.163000
+INFO     root:basepage.py:40 等待 筛选按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 可见成功。耗时：0:00:00.125000
+INFO     root:basepage.py:77 查找  筛选按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 成功
+INFO     root:basepage.py:119 点击  筛选按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 成功！
+INFO     root:basepage.py:40 等待 开始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 可见成功。耗时：0:00:00.843000
+INFO     root:basepage.py:40 等待 开始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 可见成功。耗时：0:00:00.106000
+INFO     root:basepage.py:77 查找  开始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 成功
+INFO     root:basepage.py:119 点击  开始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 成功！
+INFO     root:basepage.py:217 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:257 页面上下滑动，页面从坐标：1654.4 滑动到坐标：1757.8
+INFO     root:basepage.py:217 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:257 页面上下滑动，页面从坐标：1654.4 滑动到坐标：1861.2
+INFO     root:basepage.py:217 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:257 页面上下滑动，页面从坐标：1654.4 滑动到坐标：1861.2
+INFO     root:basepage.py:217 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:257 页面上下滑动，页面从坐标：1654.4 滑动到坐标：1861.2
+INFO     root:basepage.py:40 等待 选择时间确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/btnSubmit') 可见成功。耗时：0:00:00.148000
+INFO     root:basepage.py:40 等待 选择时间确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/btnSubmit') 可见成功。耗时：0:00:00.142000
+INFO     root:basepage.py:77 查找  选择时间确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/btnSubmit') 成功
+INFO     root:basepage.py:119 点击  选择时间确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/btnSubmit') 成功！
+INFO     root:basepage.py:40 等待 结束时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 可见成功。耗时：0:00:00.886000
+INFO     root:basepage.py:40 等待 结束时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 可见成功。耗时：0:00:00.161000
+INFO     root:basepage.py:77 查找  结束时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 成功
+INFO     root:basepage.py:119 点击  结束时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 成功！
+INFO     root:basepage.py:217 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:257 页面上下滑动，页面从坐标：1654.4 滑动到坐标：1757.8
+INFO     root:basepage.py:217 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:257 页面上下滑动，页面从坐标：1654.4 滑动到坐标：1861.2
+INFO     root:basepage.py:217 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:257 页面上下滑动，页面从坐标：1654.4 滑动到坐标：1861.2
+INFO     root:basepage.py:217 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:257 页面上下滑动，页面从坐标：1654.4 滑动到坐标：1861.2
+INFO     root:basepage.py:40 等待 选择时间确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/btnSubmit') 可见成功。耗时：0:00:00.119000
+INFO     root:basepage.py:40 等待 选择时间确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/btnSubmit') 可见成功。耗时：0:00:00.100000
+INFO     root:basepage.py:77 查找  选择时间确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/btnSubmit') 成功
+INFO     root:basepage.py:119 点击  选择时间确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/btnSubmit') 成功！
+INFO     root:basepage.py:40 等待 开始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 可见成功。耗时：0:00:00.863000
+INFO     root:basepage.py:55 等待 开始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 存在成功。耗时：0:00:00.073000
+INFO     root:basepage.py:77 查找  开始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 成功
+INFO     root:basepage.py:183 获取 开始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 的文本值为:2019-11-24 20:56
+INFO     root:basepage.py:40 等待 结束时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 可见成功。耗时：0:00:00.119000
+INFO     root:basepage.py:55 等待 结束时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 存在成功。耗时：0:00:00.064000
+INFO     root:basepage.py:77 查找  结束时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 成功
+INFO     root:basepage.py:183 获取 结束时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 的文本值为:2019-12-24 20:56
+INFO     root:basepage.py:40 等待 选择门店按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_store') 可见成功。耗时：0:00:00.114000
+INFO     root:basepage.py:40 等待 选择门店按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_store') 可见成功。耗时：0:00:00.095000
+INFO     root:basepage.py:77 查找  选择门店按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_store') 成功
+INFO     root:basepage.py:119 点击  选择门店按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_store') 成功！
+INFO     root:basepage.py:40 等待 所有门店按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/cb_all_store') 可见成功。耗时：0:00:01.108000
+INFO     root:basepage.py:40 等待 所有门店按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/cb_all_store') 可见成功。耗时：0:00:00.096000
+INFO     root:basepage.py:77 查找  所有门店按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/cb_all_store') 成功
+INFO     root:basepage.py:119 点击  所有门店按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/cb_all_store') 成功！
+INFO     root:basepage.py:40 等待 门店->吉野家日式料理店  元素  ('-android uiautomator', 'new UiSelector().text("吉野家日式料理店")') 可见成功。耗时：0:00:00.706000
+INFO     root:basepage.py:40 等待 门店->吉野家日式料理店  元素  ('-android uiautomator', 'new UiSelector().text("吉野家日式料理店")') 可见成功。耗时：0:00:00.149000
+INFO     root:basepage.py:77 查找  门店->吉野家日式料理店 元素 ('-android uiautomator', 'new UiSelector().text("吉野家日式料理店")') 成功
+INFO     root:basepage.py:119 点击  门店->吉野家日式料理店 元素 ('-android uiautomator', 'new UiSelector().text("吉野家日式料理店")') 成功！
+INFO     root:basepage.py:40 等待 选择门店后的确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_sure') 可见成功。耗时：0:00:00.116000
+INFO     root:basepage.py:40 等待 选择门店后的确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_sure') 可见成功。耗时：0:00:00.099000
+INFO     root:basepage.py:77 查找  选择门店后的确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_sure') 成功
+INFO     root:basepage.py:119 点击  选择门店后的确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_sure') 成功！
+INFO     root:basepage.py:40 等待 支付状态 全部订单 按钮  元素  ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_state").text("全部订单")') 可见成功。耗时：0:00:00.834000
+INFO     root:basepage.py:40 等待 支付状态 全部订单 按钮  元素  ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_state").text("全部订单")') 可见成功。耗时：0:00:00.161000
+INFO     root:basepage.py:77 查找  支付状态 全部订单 按钮 元素 ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_state").text("全部订单")') 成功
+INFO     root:basepage.py:119 点击  支付状态 全部订单 按钮 元素 ('-android uiautomator', 'new UiSelector().resourceId("com.cashier.jiutongshanghu:id/tv_state").text("全部订单")') 成功！
+INFO     root:basepage.py:40 等待 筛选界面的确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_confirm') 可见成功。耗时：0:00:00.135000
+INFO     root:basepage.py:40 等待 筛选界面的确定按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_confirm') 可见成功。耗时：0:00:00.133000
+INFO     root:basepage.py:77 查找  筛选界面的确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_confirm') 成功
+INFO     root:basepage.py:119 点击  筛选界面的确定按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_confirm') 成功！
+INFO     root:basepage.py:40 等待 筛选结果中的起始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_filter_time') 可见成功。耗时：0:00:00.497000
+INFO     root:basepage.py:55 等待 筛选结果中的起始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_filter_time') 存在成功。耗时：0:00:00.076000
+INFO     root:basepage.py:77 查找  筛选结果中的起始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_filter_time') 成功
+INFO     root:basepage.py:183 获取 筛选结果中的起始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_filter_time') 的文本值为:2019-11-24 20:56:00 - 2019-12-24 20:56:59
+INFO     root:basepage.py:40 等待 筛选结果中的门店名称  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_mendian_select') 可见成功。耗时：0:00:00.107000
+INFO     root:basepage.py:55 等待 筛选结果中的门店名称  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_mendian_select') 存在成功。耗时：0:00:00.076000
+INFO     root:basepage.py:77 查找  筛选结果中的门店名称 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_mendian_select') 成功
+INFO     root:basepage.py:183 获取 筛选结果中的门店名称 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_mendian_select') 的文本值为:吉野家日式料理店
+INFO     root:basepage.py:40 等待 筛选结果中的支付方式  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_pay_way') 可见成功。耗时：0:00:00.113000
+INFO     root:basepage.py:55 等待 筛选结果中的支付方式  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_pay_way') 存在成功。耗时：0:00:00.075000
+INFO     root:basepage.py:77 查找  筛选结果中的支付方式 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_pay_way') 成功
+INFO     root:basepage.py:183 获取 筛选结果中的支付方式 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_pay_way') 的文本值为:全部
+INFO     root:basepage.py:40 等待 筛选结果中的收款笔数  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_success_count') 可见成功。耗时：0:00:00.109000
+INFO     root:basepage.py:55 等待 筛选结果中的收款笔数  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_success_count') 存在成功。耗时：0:00:00.076000
+INFO     root:basepage.py:77 查找  筛选结果中的收款笔数 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_success_count') 成功
+INFO     root:basepage.py:183 获取 筛选结果中的收款笔数 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_success_count') 的文本值为:22
+INFO     root:basepage.py:40 等待 筛选结果中的退款笔数  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_refund_count') 可见成功。耗时：0:00:00.137000
+INFO     root:basepage.py:55 等待 筛选结果中的退款笔数  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_refund_count') 存在成功。耗时：0:00:00.075000
+INFO     root:basepage.py:77 查找  筛选结果中的退款笔数 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_refund_count') 成功
+INFO     root:basepage.py:183 获取 筛选结果中的退款笔数 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_refund_count') 的文本值为:13
+INFO     root:basepage.py:40 等待 筛选结果中的收银终端  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_receive_people') 可见成功。耗时：0:00:00.108000
+INFO     root:basepage.py:55 等待 筛选结果中的收银终端  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_receive_people') 存在成功。耗时：0:00:00.062000
+INFO     root:basepage.py:77 查找  筛选结果中的收银终端 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_receive_people') 成功
+INFO     root:basepage.py:183 获取 筛选结果中的收银终端 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_receive_people') 的文本值为:全部终端
+INFO     root:basepage.py:40 等待 筛选结果中的支付状态  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_pay_status') 可见成功。耗时：0:00:00.107000
+INFO     root:basepage.py:55 等待 筛选结果中的支付状态  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_pay_status') 存在成功。耗时：0:00:00.068000
+INFO     root:basepage.py:77 查找  筛选结果中的支付状态 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_pay_status') 成功
+INFO     root:basepage.py:183 获取 筛选结果中的支付状态 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_pay_status') 的文本值为:全部
+INFO     root:basepage.py:40 等待 筛选结果中的收款金额  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_success_money') 可见成功。耗时：0:00:00.115000
+INFO     root:basepage.py:55 等待 筛选结果中的收款金额  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_success_money') 存在成功。耗时：0:00:00.065000
+INFO     root:basepage.py:77 查找  筛选结果中的收款金额 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_success_money') 成功
+INFO     root:basepage.py:183 获取 筛选结果中的收款金额 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_success_money') 的文本值为:94.05
+INFO     root:basepage.py:40 等待 筛选结果中的退款金额  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_refund_money') 可见成功。耗时：0:00:00.108000
+INFO     root:basepage.py:55 等待 筛选结果中的退款金额  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_refund_money') 存在成功。耗时：0:00:00.070000
+INFO     root:basepage.py:77 查找  筛选结果中的退款金额 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_refund_money') 成功
+INFO     root:basepage.py:183 获取 筛选结果中的退款金额 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_refund_money') 的文本值为:72.63
+INFO     root:basepage.py:40 等待 筛选结果的返回按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/iv_back') 可见成功。耗时：0:00:00.095000
+INFO     root:basepage.py:40 等待 筛选结果的返回按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/iv_back') 可见成功。耗时：0:00:00.101000
+INFO     root:basepage.py:77 查找  筛选结果的返回按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/iv_back') 成功
+INFO     root:basepage.py:119 点击  筛选结果的返回按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/iv_back') 成功！
+INFO     root:basepage.py:40 等待 账单列表的返回按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/back_iv') 可见成功。耗时：0:00:00.810000
+INFO     root:basepage.py:40 等待 账单列表的返回按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/back_iv') 可见成功。耗时：0:00:00.093000
+INFO     root:basepage.py:77 查找  账单列表的返回按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/back_iv') 成功
+INFO     root:basepage.py:119 点击  账单列表的返回按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/back_iv') 成功！

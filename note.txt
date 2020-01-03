@@ -1,0 +1,75 @@
+1、PO思想通过 --- 分四层
+
+2、basepage --- 通用  查找元素、等待、元素操作、++++ app端的特有操作
+
+3、pytest --- 通用
+
+# 页面封装  相对于web网页--- 可见区域小、每个页面的逻辑不复杂、元素也不多
+   ---  灵活度
+
+# 与设备之间进行会话。
+  web: driver = webdriver.Chrome()
+  app:  准备一堆启动参数、driver = webdriver.Remote("appium server地址",启动参数)
+        noReset = True
+        chromedriverExe... = "..."
+        unicodeKeyboard = True
+        automationName = "UiAutomator2"
+        platformName
+        platfromVersion
+        device
+        appPackage
+        appActivity
+        配置化 -  conf \ yaml
+
+yaml:
+    YAML 是一种简洁的非标记语言。
+YAML以数据为中心，使用空白，缩进，分行组织数据，从而使得表示更加简洁易
+
+基本规则：
+1、大小写敏感
+2、使用缩进表示层级关系
+3、禁止使用tab缩进，只能使用空格键
+4、缩进长度没有限制，只要元素对齐就表示这些元素属于一个层级。
+5、使用#表示注释
+6、字符串可以不用引号标注
+
+# 读取yaml文件的数据，并转换成python对象
+# 1、打开yaml文件
+# 2、使用yaml的load()函数
+
+增加一些内容：
+test session级别：
+在app自动化之前，必须 要有设备才可以。  adb devices ---  输出的列表当中。
+os.system  执行命令、命令的执行状态。
+subprocess.Popen  执行命令，得到命令的输出。
+
+ # 执行command的，并获取命令执行之后的输出数据。
+stdout, stderror = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE,shell=True).communicate()
+# 编码处理
+encoding = chardet.detect(stdout)["encoding"]
+result = stdout.decode(encoding)
+result = result.strip("\r\n")   # 去掉首尾的换行回车
+
+
+自动识别设备版本： appium server  adb命令 - 安卓版本号
+通过python代码执行 adb命令，并得到对应的命令输出结果。然后经过处理，拿到干净的设备名称和平台版本号。
+然后再，去修改启动参数。
+
+命令行的方式，启动appium server
+# 命令行的形式启动appium desktop
+# 找到appium desktop下的appium 服务启动文件　（appium安装路径下 resources\app\node_modules\appium\build\lib的main.js文件）
+#　C:\Users\MyPC\AppData\Local\Programs\Appium\resources\app\node_modules\appium\build\lib
+# 跳转到此目录下，运行命令：node main.js -p 端口号，则会启动一个appium。
+# 查看所有参数：node main.js --help
+
+# appium server 通信原理
+# 元素定位 -- id,class,xpath,acceis..id,android_uiautomator,坐标
+# 元素操作 -- swipe\touchation\toast\列表滑动\应用切换\h5混合\微信小程序
+# 框架 --- 将启动参数设置为  可配置化
+       --- 自动化识别设备名称、设备版本号。
+
+
+
+selenium grid
+appium grid
+多线程 --

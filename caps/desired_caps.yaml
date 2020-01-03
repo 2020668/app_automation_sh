@@ -1,0 +1,7 @@
+platformName: Android
+automationName: UiAutomator2
+platformVersion: 8.1
+deviceName: mi8_lite
+appPackage: com.cashier.jiutongshanghu
+appActivity: com.cashier.jiutongshanghu.home.home_main.activity.StartActivity
+noReset: True
