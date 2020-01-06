@@ -37,7 +37,12 @@ if __name__ == '__main__':
     log_name = "log.log"
     file_path = os.path.join(LOGS_DIR, log_name)
 
-    # 参数 -x 代表用例失败就停止运行测试脚本
+    """
+    参数 -s 允许终端运行时输出某些结果，例如print
+    -v 输出详细测试结果
+    -m 只运行指定标签名的测试用例
+    -x 测试用例失败时停止
+    """
     pytest.main(
         ["-s", "-v", "-m", "screen", "--html=output/reports/report.html", "--alluredir=output/allure"])
 
@@ -46,3 +51,4 @@ if __name__ == '__main__':
 
     # print("error")
     # SendEmail.send_qq1_file_mail(mail_title, mail_message, file_path)
+

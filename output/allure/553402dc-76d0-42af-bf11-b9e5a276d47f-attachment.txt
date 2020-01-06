@@ -1,0 +1,12 @@
+INFO     root:basepage.py:42 等待 账单按钮  元素  ('-android uiautomator', 'new UiSelector().text("账单")') 可见成功。耗时：0:00:02.233000
+INFO     root:basepage.py:42 等待 账单按钮  元素  ('-android uiautomator', 'new UiSelector().text("账单")') 可见成功。耗时：0:00:00.243000
+INFO     root:basepage.py:79 查找  账单按钮 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 成功
+INFO     root:basepage.py:121 点击  账单按钮 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 成功！
+INFO     root:basepage.py:42 等待 筛选按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 可见成功。耗时：0:00:01.153000
+INFO     root:basepage.py:42 等待 筛选按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 可见成功。耗时：0:00:00.154000
+INFO     root:basepage.py:79 查找  筛选按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 成功
+INFO     root:basepage.py:121 点击  筛选按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 成功！
+INFO     root:basepage.py:42 等待 开始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 可见成功。耗时：0:00:00.830000
+INFO     root:basepage.py:42 等待 开始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 可见成功。耗时：0:00:00.124000
+INFO     root:basepage.py:79 查找  开始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 成功
+INFO     root:basepage.py:121 点击  开始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 成功！

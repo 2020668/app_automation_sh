@@ -8,7 +8,6 @@ E-mail:keen2020@outlook.com
 
 """
 
-
 # a = "2019-11-12 16:29:01"
 # b = "2019-11-12 16:39:01"
 #
@@ -58,7 +57,7 @@ import os
 #     line = line.strip("\r\n")
 #     # print(line)
 #     print(line)
-    # print(type(line1))
+# print(type(line1))
 
 # a = os.system("allure serve output/allure")
 # aa = 1
@@ -72,16 +71,22 @@ import os
 # os.system("allure generate output/allure - o output/reports - -clean")
 # os.system("allure open -h 192.168.2.222 -p 8080 output/reports")
 
-from datetime import date, datetime
-import datedelta
+# from datetime import date, datetime
+# import datedelta
+#
+#
+# now = datetime.now()
+# delta = datedelta.datedelta(days=5)
+# res = now + delta
+# print(res)
 
 
-now = datetime.now()
-delta = datedelta.datedelta(days=5)
-res = now + delta
-print(res)
+datetime = "2019-12-30 15:30"
+year = datetime[:4]
+month = datetime[5:7]
+day = datetime[8:10]
+hour = datetime[11:13]
+minute = datetime[14:16]
 
 
-
-
-
+print(year, month, day, hour, minute)

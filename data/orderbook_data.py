@@ -8,6 +8,9 @@ E-mail:keen2020@outlook.com
 
 """
 
+import logging
+from common import logger
+
 """
 
 全部门店 不传store_id   storeName 全部门店
@@ -36,108 +39,66 @@ success_data = [
      "note_refund_part": "自动测试部分退款备注"}
 ]
 
-screen_data = [
-    {"login_phone": "18971335925",
-     "login_pwd": "335925",
-     "main_store_name": "吉野家日式料理店",
-     "store_name": "吉野家日式料理店",
-     "store_id": "2019121716261782222",
-     "time_desc": None,
-     "time_start": None,  # 时间随便填 只能滑动选择 不能精确输入
-     "time_end": None,  # 时间随便填 只能滑动选择 不能精确输入
-     "terminal_name": None,  # 暂时按下标定位,为空就是所有终端
-     "terminal_id": None,
-     "type_source": "all",
-     "status": "all"},
-    # {"login_phone": "18971335925",
-    #  "login_pwd": "335925",
-    #  "main_store_name": "吉野家日式料理店",
-    #  "store_name": "吉野家日式料理店",
-    #  "store_id": "2019122413571152189",
-    #  "time_desc": "本月",
-    #  "time_start": None,
-    #  "time_end": None,
-    #  "terminal_name": None,
-    #  "terminal_id": None,
-    #  "type_source": "all",
-    #  "status": "all"},
-    # {"login_phone": "18971335925",
-    #  "login_pwd": "335925",
-    #  "main_store_name": "吉野家日式料理店",
-    #  "store_name": "吉野家日式料理店",
-    #  "store_id": "2019122413571152189",
-    #  "time_desc": "近7天",
-    #  "time_start": None,
-    #  "time_end": None,
-    #  "terminal_name": None,
-    #  "terminal_id": None,
-    #  "type_source": "all",
-    #  "status": "all"},
-    # {"login_phone": "18971335925",
-    #  "login_pwd": "335925",
-    #  "main_store_name": "吉野家日式料理店",
-    #  "store_name": "吉野家日式料理店",
-    #  "store_id": "2019122413571152189",
-    #  "time_desc": "近24小时",
-    #  "time_start": None,
-    #  "time_end": None,
-    #  "terminal_name": None,
-    #  "terminal_id": None,
-    #  "type_source": "all",
-    #  "status": "all"},
-    # {"login_phone": "18971335925",
-    #  "login_pwd": "335925",
-    #  "main_store_name": "吉野家日式料理店",
-    #  "store_name": "吉野家日式料理店",
-    #  "store_id": "2019122413571152189",
-    #  "time_start": "2019-10-16 23:59",
-    #  "time_end": "2019-11-15 23:59",
-    #  "terminal_name": None,
-    #  "terminal_id": None,
-    #  "type_source": "weixin",
-    #  "status": "all"},
-    # {"login_phone": "18971335925",
-    #  "login_pwd": "335925",
-    #  "main_store_name": "吉野家日式料理店",
-    #  "store_name": "吉野家日式料理店",
-    #  "store_id": "2019122413571152189",
-    #  "time_start": "2019-10-16 23:59",
-    #  "time_end": "2019-11-15 23:59",
-    #  "terminal_name": None,
-    #  "terminal_id": None,
-    #  "type_source": "alipay",
-    #  "status": "all"},
-    # {"login_phone": "18971335925",
-    #  "login_pwd": "335925",
-    #  "main_store_name": "吉野家日式料理店",
-    #  "store_name": "吉野家日式料理店",
-    #  "store_id": "2019122413571152189",
-    #  "time_start": "2019-10-16 23:59",
-    #  "time_end": "2019-11-15 23:59",
-    #  "terminal_name": None,
-    #  "terminal_id": None,
-    #  "type_source": "pos",
-    #  "status": "all"},
-    # {"login_phone": "18971335925",
-    #  "login_pwd": "335925",
-    #  "main_store_name": "吉野家日式料理店",
-    #  "store_name": "吉野家日式料理店",
-    #  "store_id": "2019122413571152189",
-    #  "time_start": "2019-10-16 23:59",
-    #  "time_end": "2019-11-15 23:59",
-    #  "terminal_name": None,
-    #  "terminal_id": None,
-    #  "type_source": "auth",
-    #  "status": "all"},
-    # {"login_phone": "18971335925",
-    #  "login_pwd": "335925",
-    #  "main_store_name": "吉野家日式料理店",
-    #  "store_name": "吉野家日式料理店",
-    #  "store_id": "2019122413571152189",
-    #  "time_start": "2019-10-16 23:59",
-    #  "time_end": "2019-11-15 23:59",
-    #  "terminal_name": None,
-    #  "terminal_id": None,
-    #  "type_source": "other",
-    #  "status": "all"},
-]
+
+# 筛选条件组合
+def order_screen_data():
+    data = []
+
+    # time_list = ["本月", "近7天", "近24小时", {"time_start": "2019-12-03 15:30", "time_end": "2020-01-06 09:59"}]
+    # store_list = ["全部门店", {"name": "吉野家日式料理店", "id": "2019121716261782222"}, {"name": "吉野家日式料理店", "id": "2019121716261782222"}]
+    # terminal_list = ["全部终端", {"name": "收款一号机", "terminal_id": "qr_pay:NO_2018122515457307981444"}]
+    # payment_list = ["全部", "微信", "支付宝", "刷卡", "预授权", "其他"]
+    # status_list = ["全部订单", "支付成功", "退款成功"]
+
+    time_list = [{"time_start": "2018-03-03 15:30", "time_end": "2020-01-06 09:59"}]
+    store_list = [{"name": "吉野家日式料理店", "id": "2019121716261782222"}, {"name": "吉野家日式料理店", "id": "2019121716261782222"}]
+    terminal_list = [{"name": "收款一号机", "terminal_id": "qr_pay:NO_2018122515457307981444"}]
+    payment_list = ["其他"]
+    status_list = ["全部订单", "支付成功", "退款成功"]
+
+    for time in time_list:
+        for store in store_list:
+            for terminal in terminal_list:
+                for payment in payment_list:
+                    for status in status_list:
+                        res = {"login_phone": "18971335925",
+                               "login_pwd": "335925",
+                               "main_store_name": "吉野家日式料理店",
+                               "store_name": store["name"] if type(store) is dict else store,
+                               "store_id": store["id"] if type(store) is dict else None,
+                               "time_desc": time if type(time) is str else None,
+                               "time_start": time["time_start"] if type(time) is dict else None,
+                               "time_end": time["time_end"] if type(time) is dict else None,
+                               "terminal_type": "指定终端" if type(terminal) is dict else terminal,
+                               "terminal_name": terminal["name"] if type(terminal) is dict else None,
+                               "terminal_id": terminal["terminal_id"] if type(terminal) is dict else None,
+                               "type_source": payment,
+                               "status": status
+                               }
+
+                        data.append(res)
+    logging.info("测试数据: {}".format(data))
+    return data
+
+
+screen_data = order_screen_data()
+# screen_data = [{'login_phone': '18971335925',
+#                 'login_pwd': '335925',
+#                 'main_store_name': '吉野家日式料理店',
+#                 'store_name': '全部门店',
+#                 'store_id': '2019121716261782222',
+#                 'time_desc': '本月',
+#                 'time_start': None,
+#                 'time_end': None,
+#                 'terminal_type': '全部终端',
+#                 'terminal_name': None,
+#                 'terminal_id': None,
+#                 'type_source': '全部',
+#                 'status': '支付成功'
+#                 }]
+
+if __name__ == '__main__':
+    result = order_screen_data()
+    print(result)
+    print(len(result))
+

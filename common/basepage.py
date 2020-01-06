@@ -201,7 +201,7 @@ class BasePage(object):
         else:
             logging.info("截图成功，截图存放在：{}".format(img_path))
 
-    def save_img_by_custom_size(self, start_x, start_y, end_x, end_y, img_description):
+    def save_img_by_custom_size(self, start_x, start_y, end_x, end_y, img_desc):
         """
         :param start_x: start Abscissa 0-1
         :param start_y: start Ordinate 0-1
@@ -213,7 +213,7 @@ class BasePage(object):
         size = self.get_device_size()
         PATH = lambda p: os.path.abspath(p)
         TEMP_FILE = PATH(tempfile.gettempdir() + "/temp_screen.png")
-        filepath = "{}.png".format(img_description)
+        filepath = "{}.png".format(img_desc)
         img_path = os.path.join(CUSTOM_SIZE_IMG_DIR, filepath)
         # 自定义截取范围
         self.driver.get_screenshot_as_file(TEMP_FILE)

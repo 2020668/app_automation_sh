@@ -20,7 +20,7 @@ from common.dir_config import CUSTOM_SIZE_IMG_DIR
 from common import logger
 
 
-class API(object):
+class BaiduAIP(object):
 
     """
     需要以下第三方库支持

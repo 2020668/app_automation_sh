@@ -140,7 +140,7 @@ class OrderBookPageLocator(object):
     terminal_loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/tv_equipment"
 
     # 选择某个终端,所有终端都是相同的id
-    terminal_name_loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/rel_check"
+    # terminal_name_loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/rel_check"
 
     # 重置按钮
     terminal_reset_loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/nct_terminal_reset"
@@ -184,7 +184,7 @@ class OrderBookPageLocator(object):
 
     # 已退款
     status_refund_loc = MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().resourceId("com.cashier.jiutongshanghu' \
-                                                      ':id/tv_state").text("已退款")'
+                                                      ':id/tv_state").text("退款成功")'
 
     # 重置按钮
     reset_loc = MobileBy.ID, "com.cashier.jiutongshanghu:id/nct_reset"

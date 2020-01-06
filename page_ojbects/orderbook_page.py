@@ -10,11 +10,14 @@ E-mail:keen2020@outlook.com
 
 import time
 import logging
+import os
 from appium.webdriver.common.mobileby import MobileBy
 from decimal import Decimal
 
 from common.basepage import BasePage
 from common import logger
+from common.image_to_text import BaiduAIP
+from common.dir_config import CUSTOM_SIZE_IMG_DIR
 from page_locators.orderbook_page_locator import OrderBookPageLocator as Loc
 
 
@@ -492,9 +495,10 @@ class OrderBookPage(BasePage):
 
     # 账单筛选
     def screen_order(self, login_phone, login_pwd, main_store_name, store_name, store_id, time_desc,
-                     time_start, time_end, terminal_name, terminal_id, type_source, status):
+                     time_start, time_end, terminal_type, terminal_name, terminal_id, type_source, status):
 
         store_name_loc = MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("{}")'.format(store_name)
+        terminal_name_loc = MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("{}")'.format(terminal_name)
 
         self.wait_ele_visible(loc=Loc.order_nav_loc, img_desc="账单按钮")
         self.click_element(loc=Loc.order_nav_loc, img_desc="账单按钮")
@@ -515,20 +519,7 @@ class OrderBookPage(BasePage):
             self.wait_ele_visible(loc=Loc.start_time_loc, img_desc="开始时间")
             self.click_element(loc=Loc.start_time_loc, img_desc="开始时间")
 
-            # self.swipe_diy(start_width=0.1, start_height=0.8, end_width=0.1, end_height=0.85)
-            # time.sleep(1)
-
-            self.swipe_diy(start_width=0.4, start_height=0.8, end_width=0.4, end_height=0.85)
-            time.sleep(1)
-
-            self.swipe_diy(start_width=0.50, start_height=0.8, end_width=0.5, end_height=0.9)
-            time.sleep(1)
-
-            self.swipe_diy(start_width=0.70, start_height=0.8, end_width=0.70, end_height=0.9)
-            time.sleep(1)
-
-            self.swipe_diy(start_width=0.90, start_height=0.8, end_width=0.90, end_height=0.9)
-            time.sleep(1)
+            self.select_start_datetime(datetime=time_start)
 
             self.wait_ele_visible(loc=Loc.time_confirm_loc, img_desc="选择时间确定按钮")
             self.click_element(loc=Loc.time_confirm_loc, img_desc="选择时间确定按钮")
@@ -537,20 +528,7 @@ class OrderBookPage(BasePage):
             self.wait_ele_visible(loc=Loc.end_time_loc, img_desc="结束时间")
             self.click_element(loc=Loc.end_time_loc, img_desc="结束时间")
 
-            # self.swipe_diy(start_width=0.1, start_height=0.8, end_width=0.1, end_height=0.85)
-            # time.sleep(1)
-
-            self.swipe_diy(start_width=0.4, start_height=0.8, end_width=0.4, end_height=0.85)
-            time.sleep(1)
-
-            self.swipe_diy(start_width=0.50, start_height=0.8, end_width=0.5, end_height=0.9)
-            time.sleep(1)
-
-            self.swipe_diy(start_width=0.70, start_height=0.8, end_width=0.70, end_height=0.9)
-            time.sleep(1)
-
-            self.swipe_diy(start_width=0.90, start_height=0.8, end_width=0.90, end_height=0.9)
-            time.sleep(1)
+            self.select_end_datetime(datetime=time_end)
 
             self.wait_ele_visible(loc=Loc.time_confirm_loc, img_desc="选择时间确定按钮")
             self.click_element(loc=Loc.time_confirm_loc, img_desc="选择时间确定按钮")
@@ -565,7 +543,7 @@ class OrderBookPage(BasePage):
 
 # ================================= C H O I C E     S T O R E =================================
 
-        if store_name:
+        if store_name != "全部门店":
 
             # 选择门店
             self.wait_ele_visible(loc=Loc.store_choose_loc, img_desc="选择门店按钮")
@@ -582,47 +560,53 @@ class OrderBookPage(BasePage):
         else:
             pass
 
+# ================================= C H O I C E     T E R M I N A L =================================
+
         if terminal_name:
 
             self.wait_ele_visible(loc=Loc.terminal_loc, img_desc="全部终端 按钮")
             self.click_element(loc=Loc.terminal_loc, img_desc="全部终端 按钮")
 
-            self.wait_ele_visible(loc=Loc.terminal_name_loc, img_desc="终端名称")
-            self.get_element(loc=Loc.terminal_name_loc, img_desc="终端名称", find_all=True)[terminal_name].click()
+            self.wait_ele_visible(loc=terminal_name_loc, img_desc="终端-->{}".format(terminal_name))
+            self.click_element(loc=terminal_name_loc, img_desc="终端-->{}".format(terminal_name))
 
             self.wait_ele_visible(loc=Loc.terminal_confirm_loc, img_desc="选择终端后的确定按钮")
             self.click_element(loc=Loc.terminal_confirm_loc, img_desc="选择终端后的确定按钮")
         else:
             pass
 
-        if type_source == "all":
+# ================================= C H O I C E     P A Y M E N T =================================
+
+        if type_source == "全部":
             self.wait_ele_visible(loc=Loc.payment_method_all_loc, img_desc="支付方式 全部 按钮")
             self.click_element(loc=Loc.payment_method_all_loc, img_desc="支付方式 全部 按钮")
-        elif type_source == "weixin":
+        elif type_source == "微信":
             self.wait_ele_visible(loc=Loc.payment_method_wechat_loc, img_desc="支付方式 微信 按钮")
             self.click_element(loc=Loc.payment_method_wechat_loc, img_desc="支付方式 微信 按钮")
-        elif type_source == "alipay":
+        elif type_source == "支付宝":
             self.wait_ele_visible(loc=Loc.payment_method_alipay_loc, img_desc="支付方式 支付宝 按钮")
             self.click_element(loc=Loc.payment_method_alipay_loc, img_desc="支付方式 支付宝 按钮")
-        elif type_source == "pos":
+        elif type_source == "刷卡":
             self.wait_ele_visible(loc=Loc.payment_method_pos_loc, img_desc="支付方式 刷卡 按钮")
             self.click_element(loc=Loc.payment_method_pos_loc, img_desc="支付方式 刷卡 按钮")
-        elif type_source == "auth":
+        elif type_source == "预授权":
             self.wait_ele_visible(loc=Loc.payment_method_auth_loc, img_desc="支付方式 预授权 按钮")
             self.click_element(loc=Loc.payment_method_auth_loc, img_desc="支付方式 预授权 按钮")
-        elif type_source == "other":
+        elif type_source == "其他":
             self.wait_ele_visible(loc=Loc.payment_method_other_loc, img_desc="支付方式 其他 按钮")
             self.click_element(loc=Loc.payment_method_other_loc, img_desc="支付方式 其他 按钮")
         else:
             pass
 
-        if status == "all":
+# ================================= C H O I C E     S T A T U S =================================
+
+        if status == "全部订单":
             self.wait_ele_visible(loc=Loc.status_all_loc, img_desc="支付状态 全部订单 按钮")
             self.click_element(loc=Loc.status_all_loc, img_desc="支付状态 全部订单 按钮")
-        elif status == "success":
+        elif status == "支付成功":
             self.wait_ele_visible(loc=Loc.status_success_loc, img_desc="支付状态 收款成功 按钮")
             self.click_element(loc=Loc.status_success_loc, img_desc="支付状态 收款成功 按钮")
-        elif status == "refund":
+        elif status == "退款成功":
             self.wait_ele_visible(loc=Loc.status_refund_loc, img_desc="支付状态 已退款 按钮")
             self.click_element(loc=Loc.status_refund_loc, img_desc="支付状态 已退款 按钮")
 
@@ -630,6 +614,8 @@ class OrderBookPage(BasePage):
         self.click_element(loc=Loc.confirm_loc, img_desc="筛选界面的确定按钮")
 
         time.sleep(2)
+
+# ================================= G E T     S C R E E N  R E S U L T =================================
 
         self.wait_ele_visible(loc=Loc.screen_result_start_end_time, img_desc="筛选结果中的起始时间")
         screen_result_start_end_time = self.get_text(loc=Loc.screen_result_start_end_time, img_desc="筛选结果中的起始时间")
@@ -662,47 +648,39 @@ class OrderBookPage(BasePage):
         self.wait_ele_visible(loc=Loc.screen_result_refund_amount_loc, img_desc="筛选结果中的退款金额")
         screen_result_refund_amount = self.get_text(loc=Loc.screen_result_refund_amount_loc, img_desc="筛选结果中的退款金额")
 
-        # 转换支付方式 供APP筛选出的结果 与 测试数据做断言
-        if type_source == "all":
-            payment_name = "全部"
-        elif type_source == "weixin":
-            payment_name = "微信"
-        elif type_source == "alipay":
-            payment_name = "支付宝"
-        elif type_source == "pos":
-            payment_name = "刷卡"
-        elif type_source == "auth":
-            payment_name = "预授权"
-        elif type_source == "other":
-            payment_name = "其它"
-        else:
-            payment_name = "错误"
-
 # ================================= G E T    A P I    D A T A =================================
 
         # 转换支付方式 供接口调用
-        if type_source == "all":
+        if type_source == "全部":
             api_type_source = ""
+        elif type_source == "微信":
+            api_type_source = "weixin"
+        elif type_source == "支付宝":
+            api_type_source = "alipay"
+        elif type_source == "刷卡":
+            api_type_source = "pos"
+        elif type_source == "预授权":
+            api_type_source = "auth"
+        elif type_source == "其他":
+            # 筛选条件是 其他 筛选结果变成了 其它
+            type_source = "其它"
+            api_type_source = "other"
         else:
-            api_type_source = type_source
+            api_type_source = None
 
         # 转换支付状态 供断言和接口调用
-        if status == "all":
+        if status == "全部订单":
             status_name = "全部"
             api_status = ""
-        elif status == "success":
-            status_name = "交易完成"
+        elif status == "支付成功":
+            status_name = "收款成功"
             api_status = "1"
         else:
-            status_name = "已退款"
+            status_name = "退款成功"
             api_status = "3"
 
-        # 调用接口 获取数据 与APP查询的结果比对
-        # 判断全部和部分门店
-        # if main_store_name == store_name:
-        #     api_store_id = ""
-        #     api_store_name = "全部门店"
-        if store_name:
+        # 处理门店
+        if store_name != "全部门店":
             api_store_id = store_id
             api_store_name = "指定门店"
         else:
@@ -731,7 +709,7 @@ class OrderBookPage(BasePage):
 
         assert screen_result_store_name == api_store_name
 
-        assert screen_result_payment == payment_name
+        assert screen_result_payment == type_source
 
         assert screen_result_terminal == api_terminal_name
 
@@ -799,6 +777,106 @@ class OrderBookPage(BasePage):
 
         self.wait_ele_visible(loc=Loc.order_list_back_loc, img_desc="账单列表的返回按钮")
         self.click_element(loc=Loc.order_list_back_loc, img_desc="账单列表的返回按钮")
+
+# ================================= C O M M O N   M E T H O D =================================
+
+    def select_start_datetime(self, datetime):
+
+        year = datetime[:4]
+        month = datetime[5:7]
+        day = datetime[8:10]
+        hour = datetime[11:13]
+        minute = datetime[14:16]
+
+        # 处理year  先截图获取文本 判断 是否滑动
+        while True:
+
+            # 对开始时间的年份进行截图
+            self.save_img_by_custom_size(start_x=0.02, start_y=0.895, end_x=0.155, end_y=0.92, img_desc="开始时间的年份")
+
+            time.sleep(2)
+
+            # 获取截图的文本
+            api = BaiduAIP()
+            text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "开始时间的年份.png"))
+            logging.info("开始时间的年份是-->{}, 继续向下滑动...".format(text) if text != year else "开始时间的年份-->{} 滑动选中OK".format(text))
+
+            if text == year:
+                break
+
+            # 向上滑动一个单位
+            self.swipe_diy(start_width=0.1, start_height=0.87, end_width=0.1, end_height=0.9)
+
+        # 处理month
+        while True:
+
+            self.save_img_by_custom_size(start_x=0.27, start_y=0.895, end_x=0.335, end_y=0.92, img_desc="开始时间的月份")
+
+            time.sleep(2)
+
+            api = BaiduAIP()
+            text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "开始时间的月份.png"))
+            logging.info(
+                "开始时间的月份是-->{}, 继续向下滑动...".format(text) if text != month else "开始时间的月份-->{} 滑动选中OK".format(text))
+
+            if text == month:
+                break
+
+            # 开始时间默认是 01-01 向上滑动
+            self.swipe_diy(start_width=0.32, start_height=0.9, end_width=0.32, end_height=0.87)
+
+        # 处理day
+        while True:
+
+            self.save_img_by_custom_size(start_x=0.46, start_y=0.895, end_x=0.525, end_y=0.92, img_desc="开始时间的日期")
+
+            time.sleep(2)
+
+            api = BaiduAIP()
+            text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "开始时间的日期.png"))
+            logging.info(
+                "开始时间的日期是-->{}, 继续向下滑动...".format(text) if text != day else "开始时间的日期-->{} 滑动选中OK".format(text))
+
+            if text == day:
+                break
+
+            self.swipe_diy(start_width=0.5, start_height=0.9, end_width=0.5, end_height=0.87)
+
+        # 处理hour
+        while True:
+
+            self.save_img_by_custom_size(start_x=0.7, start_y=0.895, end_x=0.75, end_y=0.92, img_desc="时间的小时")
+
+            time.sleep(2)
+
+            api = BaiduAIP()
+            text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "时间的小时.png"))
+            logging.info(
+                "时间的小时是-->{}, 继续向下滑动...".format(text) if text != hour else "时间的小时-->{} 滑动选中OK".format(text))
+
+            self.swipe_diy(start_width=0.1, start_height=0.87, end_width=0.1, end_height=0.9)
+
+            if text == hour:
+                break
+
+        # 处理minute
+        while True:
+
+            self.save_img_by_custom_size(start_x=0.8, start_y=0.895, end_x=0.85, end_y=0.92, img_desc="时间的分钟")
+
+            time.sleep(2)
+
+            # 获取截图的文本
+            api = BaiduAIP()
+            text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "时间的分钟.png"))
+            logging.info(
+                "时间的分钟是-->{}, 继续向下滑动...".format(text) if text != minute else "时间的分钟-->{} 滑动选中OK".format(text))
+
+            # 向上滑动一个单位
+            self.swipe_diy(start_width=0.1, start_height=0.87, end_width=0.1, end_height=0.9)
+
+            if text == minute:
+                break
 
     # def screen_success_sum(self):
     #
@@ -1011,3 +1089,5 @@ class OrderBookPage(BasePage):
     #     logging.info(info_time)
     #     logging.info("退款笔数合计为-->{}".format(sum_refund_num))
     #     logging.info("退款金额合计为-->{}".format(sum_refund_amount))
+
+

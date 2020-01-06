@@ -63,7 +63,7 @@ class TestOrderBook(object):
     @pytest.mark.parametrize("data", od.screen_data)
     def test_screen_order(self, data, run_app):
         # 执行登录
-        LoginPage(run_app).login_action(data["login_phone"], data["login_pwd"])
+        # LoginPage(run_app).login_action(data["login_phone"], data["login_pwd"])
 
         screen_result = OrderBookPage(run_app).screen_order(login_phone=data["login_phone"],
                                                             login_pwd=data["login_pwd"],
@@ -73,6 +73,7 @@ class TestOrderBook(object):
                                                             time_desc=data["time_desc"],
                                                             time_start=data["time_start"],
                                                             time_end=data["time_end"],
+                                                            terminal_type=data["terminal_type"],
                                                             terminal_name=data["terminal_name"],
                                                             terminal_id=data["terminal_id"],
                                                             type_source=data["type_source"],

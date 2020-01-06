@@ -21,7 +21,7 @@ handler_1 = logging.StreamHandler()
 
 curTime = time.strftime("%Y-%m-%d %H%M", time.localtime())
 
-log_name = dir_config.LOGS_DIR + "/Web_Autotest_{0}.log".format(curTime)
+log_name = dir_config.LOGS_DIR + "/App_Automation_{0}.log".format(curTime)
 
 handler_2 = RotatingFileHandler(log_name, backupCount=20, encoding='utf-8')
 
