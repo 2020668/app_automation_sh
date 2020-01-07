@@ -519,7 +519,7 @@ class OrderBookPage(BasePage):
             self.wait_ele_visible(loc=Loc.start_time_loc, img_desc="开始时间")
             self.click_element(loc=Loc.start_time_loc, img_desc="开始时间")
 
-            self.select_start_datetime(datetime=time_start)
+            self.select_datetime(datetime=time_start)
 
             self.wait_ele_visible(loc=Loc.time_confirm_loc, img_desc="选择时间确定按钮")
             self.click_element(loc=Loc.time_confirm_loc, img_desc="选择时间确定按钮")
@@ -528,7 +528,7 @@ class OrderBookPage(BasePage):
             self.wait_ele_visible(loc=Loc.end_time_loc, img_desc="结束时间")
             self.click_element(loc=Loc.end_time_loc, img_desc="结束时间")
 
-            self.select_end_datetime(datetime=time_end)
+            self.select_datetime(datetime=time_end)
 
             self.wait_ele_visible(loc=Loc.time_confirm_loc, img_desc="选择时间确定按钮")
             self.click_element(loc=Loc.time_confirm_loc, img_desc="选择时间确定按钮")
@@ -780,103 +780,150 @@ class OrderBookPage(BasePage):
 
 # ================================= C O M M O N   M E T H O D =================================
 
-    def select_start_datetime(self, datetime):
+    def select_datetime(self, datetime):
+        """
+        如出现第一个00识别失败,可先滑动一格再来获取值进行判断
+        :param datetime:
+        :return:
+        """
+
+        time.sleep(1)
 
         year = datetime[:4]
         month = datetime[5:7]
         day = datetime[8:10]
         hour = datetime[11:13]
         minute = datetime[14:16]
+        logging.info("滑动输入的时间为-->{}{}{}{}{}".format(year, month, day, hour, minute))
 
         # 处理year  先截图获取文本 判断 是否滑动
         while True:
 
             # 对开始时间的年份进行截图
-            self.save_img_by_custom_size(start_x=0.02, start_y=0.895, end_x=0.155, end_y=0.92, img_desc="开始时间的年份")
+            self.save_img_by_custom_size(start_x=0.02, start_y=0.895, end_x=0.155, end_y=0.92, img_desc="时间的年份")
 
             time.sleep(2)
 
             # 获取截图的文本
             api = BaiduAIP()
-            text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "开始时间的年份.png"))
-            logging.info("开始时间的年份是-->{}, 继续向下滑动...".format(text) if text != year else "开始时间的年份-->{} 滑动选中OK".format(text))
+            text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "时间的年份.png"))
+            logging.info("当前年份是-->{}, 继续滑动...".format(text) if text != year else "年份-->{} 滑动选中OK".format(text))
 
             if text == year:
                 break
-
-            # 向上滑动一个单位
-            self.swipe_diy(start_width=0.1, start_height=0.87, end_width=0.1, end_height=0.9)
+            # 判断然后滑动一个单位
+            elif text < year:
+                self.swipe_diy(start_width=0.1, start_height=0.9, end_width=0.1, end_height=0.87)
+            else:
+                self.swipe_diy(start_width=0.1, start_height=0.87, end_width=0.1, end_height=0.9)
 
         # 处理month
         while True:
 
-            self.save_img_by_custom_size(start_x=0.27, start_y=0.895, end_x=0.335, end_y=0.92, img_desc="开始时间的月份")
+            self.save_img_by_custom_size(start_x=0.27, start_y=0.895, end_x=0.335, end_y=0.92, img_desc="时间的月份")
 
             time.sleep(2)
 
             api = BaiduAIP()
-            text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "开始时间的月份.png"))
-            logging.info(
-                "开始时间的月份是-->{}, 继续向下滑动...".format(text) if text != month else "开始时间的月份-->{} 滑动选中OK".format(text))
+            text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "时间的月份.png"))
+            logging.info("当前的月份是-->{}, 继续滑动...".format(text) if text != month else "月份-->{} 滑动选中OK".format(text))
 
             if text == month:
                 break
-
-            # 开始时间默认是 01-01 向上滑动
-            self.swipe_diy(start_width=0.32, start_height=0.9, end_width=0.32, end_height=0.87)
+            elif text < month:
+                delta = int(month) - int(text) if text != '' else 1
+                i = 0
+                while i < delta:
+                    self.swipe_diy(start_width=0.3, start_height=0.9, end_width=0.3, end_height=0.87)
+                    i += 1
+            else:
+                delta = int(text) - int(month) if text != '' else 1
+                i = 0
+                while i < delta:
+                    self.swipe_diy(start_width=0.3, start_height=0.87, end_width=0.3, end_height=0.9)
+                    i += 1
 
         # 处理day
         while True:
 
-            self.save_img_by_custom_size(start_x=0.46, start_y=0.895, end_x=0.525, end_y=0.92, img_desc="开始时间的日期")
+            # 单独识别数字存在成功率低的问题 故加上单位截图 然后只取数字部分的文本
+            self.save_img_by_custom_size(start_x=0.46, start_y=0.895, end_x=0.528, end_y=0.92, img_desc="时间的日期")
 
             time.sleep(2)
 
             api = BaiduAIP()
-            text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "开始时间的日期.png"))
-            logging.info(
-                "开始时间的日期是-->{}, 继续向下滑动...".format(text) if text != day else "开始时间的日期-->{} 滑动选中OK".format(text))
+            text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "时间的日期.png"))
+            logging.info("当前的日期是-->{}, 继续滑动...".format(text) if text != day else "日期-->{} 滑动选中OK".format(text))
 
             if text == day:
                 break
 
-            self.swipe_diy(start_width=0.5, start_height=0.9, end_width=0.5, end_height=0.87)
+            elif text < day:
+                # 防止数字识别失败 返回空字符串 给个默认值1
+                delta = int(day) - int(text) if text != '' else 1
+                i = 0
+                while i < delta:
+                    self.swipe_diy(start_width=0.49, start_height=0.9, end_width=0.49, end_height=0.87)
+                    i += 1
+            else:
+                delta = int(text) - int(day) if text != '' else 1
+                i = 0
+                while i < delta:
+                    self.swipe_diy(start_width=0.49, start_height=0.87, end_width=0.49, end_height=0.9)
+                    i += 1
 
         # 处理hour
         while True:
 
-            self.save_img_by_custom_size(start_x=0.7, start_y=0.895, end_x=0.75, end_y=0.92, img_desc="时间的小时")
+            self.save_img_by_custom_size(start_x=0.652, start_y=0.895, end_x=0.717, end_y=0.923, img_desc="时间的小时")
 
             time.sleep(2)
 
             api = BaiduAIP()
             text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "时间的小时.png"))
-            logging.info(
-                "时间的小时是-->{}, 继续向下滑动...".format(text) if text != hour else "时间的小时-->{} 滑动选中OK".format(text))
-
-            self.swipe_diy(start_width=0.1, start_height=0.87, end_width=0.1, end_height=0.9)
+            logging.info("当前的小时是-->{}, 继续滑动...".format(text) if text != hour else "小时-->{} 滑动选中OK".format(text))
 
             if text == hour:
                 break
+            elif text < hour:
+                delta = int(hour) - int(text) if text != '' else 1
+                i = 0
+                while i < delta:
+                    self.swipe_diy(start_width=0.68, start_height=0.9, end_width=0.68, end_height=0.87)
+                    i += 1
+            else:
+                delta = int(text) - int(hour) if text != '' else 1
+                i = 0
+                while i < delta:
+                    self.swipe_diy(start_width=0.68, start_height=0.87, end_width=0.68, end_height=0.9)
+                    i += 1
 
         # 处理minute
         while True:
 
-            self.save_img_by_custom_size(start_x=0.8, start_y=0.895, end_x=0.85, end_y=0.92, img_desc="时间的分钟")
+            self.save_img_by_custom_size(start_x=0.847, start_y=0.895, end_x=0.912, end_y=0.92, img_desc="时间的分钟")
 
             time.sleep(2)
 
             # 获取截图的文本
             api = BaiduAIP()
             text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "时间的分钟.png"))
-            logging.info(
-                "时间的分钟是-->{}, 继续向下滑动...".format(text) if text != minute else "时间的分钟-->{} 滑动选中OK".format(text))
-
-            # 向上滑动一个单位
-            self.swipe_diy(start_width=0.1, start_height=0.87, end_width=0.1, end_height=0.9)
+            logging.info("当前的分钟是-->{}, 继续滑动...".format(text) if text != minute else "分钟-->{} 滑动选中OK".format(text))
 
             if text == minute:
                 break
+            elif text < minute:
+                delta = int(minute) - int(text) if text != '' else 1
+                i = 0
+                while i < delta:
+                    self.swipe_diy(start_width=0.88, start_height=0.9, end_width=0.88, end_height=0.87)
+                    i += 1
+            else:
+                delta = int(text) - int(minute) if text != '' else 1
+                i = 0
+                while i < delta:
+                    self.swipe_diy(start_width=0.88, start_height=0.87, end_width=0.88, end_height=0.9)
+                    i += 1
 
     # def screen_success_sum(self):
     #

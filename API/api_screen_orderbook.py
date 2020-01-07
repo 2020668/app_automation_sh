@@ -10,9 +10,10 @@ E-mail:keen2020@outlook.com
 
 import logging
 from common import logger
+from caps.read_yaml import conf
 
 from API.http_request import HTTPRequest
-from common.tools import get_line_token
+from common.tools import get_token
 
 
 def api_my_order_book(login_phone, login_pwd, page, terminal_name, terminal_id, time_start, time_end, type_source, store_name,
@@ -35,11 +36,12 @@ def api_my_order_book(login_phone, login_pwd, page, terminal_name, terminal_id, 
 
     """
 
-    url = "https://api.hczypay.com/api/merchant/myOrderBook"
+    # url = "https://api.hczypay.com/api/merchant/myOrderBook"
+    url = conf.get("env").get("url") + "/api/merchant/myOrderBook"
 
     # 调用登录方法获取
-    token = get_line_token(phone=login_phone, pwd=login_pwd,
-                           imei="919dc52afd82279be4f9ff04288be30a9de665ff8fd68b437dbe93953b8e07c9")
+    token = get_token(phone=login_phone, pwd=login_pwd,
+                      imei="919dc52afd82279be4f9ff04288be30a9de665ff8fd68b437dbe93953b8e07c9")
 
     request = HTTPRequest()
 

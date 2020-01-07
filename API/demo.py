@@ -12,7 +12,7 @@ import logging
 from common import logger
 
 from API.http_request import HTTPRequest
-from common.tools import get_line_token
+from common.tools import get_token
 
 url = "https://isv.hczypay.com/api/merchant/getStoreFaceCount"
 

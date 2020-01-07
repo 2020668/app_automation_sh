@@ -81,12 +81,53 @@ import os
 # print(res)
 
 
-datetime = "2019-12-30 15:30"
-year = datetime[:4]
-month = datetime[5:7]
-day = datetime[8:10]
-hour = datetime[11:13]
-minute = datetime[14:16]
+# datetime = "2019-12-30 15:30"
+# year = datetime[:4]
+# month = datetime[5:7]
+# day = datetime[8:10]
+# hour = datetime[11:13]
+# minute = datetime[14:16]
+#
+#
+# print(year, month, day, hour, minute)
+
+def relative_position():
+
+    base_start_x = int(input("请输入截图的base_start_x:"))
+    base_start_y = int(input("请输入截图的base_start_y:"))
+
+    base_end_x = int(input("请输入截图的base_end_x:"))
+    base_end_y = int(input("请输入截图的base_end_y:"))
+
+    start_x = int(input("请输入截图的start_x:"))
+    start_y = int(input("请输入截图的start_y:"))
+
+    end_x = int(input("请输入截图的end_x:"))
+    end_y = int(input("请输入截图的end_y:"))
+
+    size_x = base_end_x - base_start_x
+    size_y = base_end_y - base_start_y
+
+    start_x = size_x - start_x
+    start_y = size_y - start_y
+    end_x = size_x - end_x
+    end_y = size_y - end_y
+
+    x = start_x / size_x
+    y = start_y / size_y
+    x1 = end_x / size_x
+    y1 = end_y / size_y
+
+    print(x, y, x1, y1)
+    return x, y, x1, y1
 
 
-print(year, month, day, hour, minute)
+def dem():
+    x = "11月"
+    x = x[:2]
+    print(x)
+
+
+if __name__ == '__main__':
+    # relative_position()
+    dem()

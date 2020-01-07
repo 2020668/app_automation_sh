@@ -19,6 +19,7 @@ import datedelta
 import logging
 
 from common import logger
+from caps.read_yaml import conf
 from API.http_request import HTTPRequest
 
 
@@ -35,9 +36,9 @@ def uninstall_appium_settings():
     print("uninstall appium.settings successfully")
 
 
-def get_line_token(phone, pwd, imei, voip_imei=None):
+def get_token(phone, pwd, imei, voip_imei=None):
     request = HTTPRequest()
-    url = "https://api.hczypay.com/api/merchant/login"
+    url = conf.get("env").get("url") + "/api/merchant/login"
     if voip_imei:
         request_data = {"phone": phone, "password": pwd, "imei": imei, "type": "phone", "voip_imei": voip_imei}
     else:
@@ -60,7 +61,7 @@ def logout(phone, token):
     request = HTTPRequest()
     request_data = {'phone': phone,
                     'imei': '919dc52afd82279be4f9ff04288be30a9de665ff8fd68b437dbe93953b8e07c9', 'token': token}
-    url = "https://api.hczypay.com/api/merchant/logout"
+    url = conf.get("env").get("url") + "/api/merchant/logout"
     response = request.request(method="post", url=url, data=request_data)
     res = response.json()
     logging.info("退出登录结果--> {}".format(res))

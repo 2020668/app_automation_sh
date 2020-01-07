@@ -2,125 +2,196 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18c95c12-3bf1-4499-b4e7-4e1cd93f4bc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/output/allure/0a664714-ef2a-47fd-beb2-418989d6c4ec-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/0b0dd8d5-e04d-46a0-a1e0-3bbfc0100d8b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/21abb817-7314-4b31-91c2-997a4750c8a9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/23456b7a-588d-478f-8dac-c6e0e7beb7da-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/24e08a8b-84e4-48fa-9252-26538ef61e66-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/2522260c-ba91-434a-8406-0af5245ad58f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/259ac7a3-08e1-4ea4-a66b-d22a1f11b666-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/2a1a80dd-5f48-49d2-9481-362aa5d4eff3-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/2e29c487-f4f7-4405-819e-1a3ae793205b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/2e39f204-cfd2-4a15-a6fb-9f1a13a6d333-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/33af05aa-90b1-4f86-852b-3ead4a98d2f5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/35f26871-e9c3-45e3-9fa5-f25aff9807fb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/384b02a5-6cee-48b3-93ae-f10f732ac827-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/39fbae76-a1b9-4d42-8ae2-ba3f81d1f7c0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/3cac1225-f186-47f2-b949-611e7741b812-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/3d8a9c12-805f-4f4f-aa9d-4a0de7b3fd56-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/42065551-96a4-4d98-adbc-b1d1663aa650-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/44607d09-d32a-4c28-b601-ea7cee42dc23-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/45a39744-a601-442e-a657-e3af2177b364-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/4bf31d6c-8f68-4140-aa6e-8e104918404a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/4d439415-1956-49e3-953a-b262e31135a2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/4eb3194d-8f61-4a68-afb9-aa7e47cecaed-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/553402dc-76d0-42af-bf11-b9e5a276d47f-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/55a6f39f-af51-44dc-98a7-41732c91bfd5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/560c9ade-8f3a-4294-bc1b-3080cbeb3c72-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/5d83f3ca-96a7-4304-83ea-703a0f186f93-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/6539af35-36aa-41c5-aa1f-68f1b84d3efe-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/65d59e9e-df18-4cb9-8a7d-a4571e7d9368-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/67f320ad-422a-4748-a4fc-adea6586bd83-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/6a848187-f297-422e-8fe3-e18fcca67893-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/6d8e4524-5774-4d18-af3c-8129add406e2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/6fa1d146-eadc-4fab-8be2-3e46a98ca894-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/734e96d5-2ff2-43cd-9122-5197e3889279-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/7882cd13-a6d8-4813-8832-b8b5f3a39836-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/7a931248-8de6-4625-a09b-850498448e50-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/7ef1d245-80a7-4e0d-8dd5-87c1818b71fc-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/83350bcd-9f0d-4e36-a082-fe420041828e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/871c5d45-85fa-42c5-9c24-90a1563fe378-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/8a7b8f20-0b0c-4503-aaf9-ab9a1961bd39-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/8d453379-a443-4861-9fdb-2b58d3ba4d2c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/938bd859-62b0-42c9-a458-3269eeb8aceb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/946c9f32-8f9c-4e1e-b383-de4f635b3eab-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/99e5d99b-58d6-4d5f-bcef-343525537b94-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/9a4d8da0-6076-4d76-9e86-54d9f49d5889-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/a1be0d8d-93a0-4296-b3b6-faf9427e88e3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/a5359e94-85c8-4083-b161-0d03b98a6230-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/a59ab26c-3efa-451e-a222-2c2993f090d3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/a702d64a-85dc-4bc1-aaa0-983a68929925-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/acc83134-ebe2-4b25-a2c5-9672fef2e97a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/b6f5e051-07ae-4b9f-8392-9b75cb40a1d6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/b89425df-02d7-430c-a4c6-6925ccac69a4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/bbb27015-e1a1-4eea-a8e1-bca9686c8b93-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/bfe45134-3931-4fba-b2a9-3d1fcc41a01d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/c1562f3e-0a54-44c4-a131-f15b8246cb7e-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/c4e38603-3ce0-4ce3-a217-5d603332685b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/cc73a528-d737-4750-b068-2d58a147eecc-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/d059ee5a-05d9-49a6-805d-f684d6648cb2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/d17361c1-9131-4dee-a7ae-ab4a8f97acde-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/d78574e8-0e89-4268-a329-a2f928595119-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/d9fa5109-cef2-468e-b39e-59eabfa07cad-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/da50c1c1-7494-4190-8cf6-1101e53b39b2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/dac32f68-ba7b-4464-88d7-b5f296519cca-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/de6b50c3-a548-420b-a5dc-e44f5b46bf0d-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/e9429d7c-de7c-45ef-adb5-34aced0641ce-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/e9c0fcd1-5284-4346-9fb4-8f39f7ebf89d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/eab84352-d12a-4a2f-9ab0-03415f23ea37-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/ed7ace71-1e7b-4858-b3f3-b0fca6b80a33-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/ef6a217e-4c56-4282-8411-c2588f05405f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/f9fbe534-412d-43b9-966f-f8bac26ab7d8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/allure/fe83ae27-b351-46f8-9920-dc63053dd5b2-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/custom_size_img/开始时间的年份.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/custom_size_img/开始时间的日期.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/custom_size_img/开始时间的月份.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/custom_size_img/时间的小时.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caps/env.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caps/produce.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caps/test.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/00c89493-5f6a-435e-aebf-3665b8ae6acd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/0128988e-c867-4805-8dde-e24e6f1c6c93-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/02819075-1407-4a44-b005-43f5aa4dbfd1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/03329ba4-a074-48ec-8d28-a261271798de-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/04b8bb2a-dcb5-46c7-a517-9150f039defb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/05a5b31f-cf22-43d9-8079-ad91cdd6f737-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/05b4a906-f9e4-4445-a44e-4b999b22059e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/062b7a78-6515-4adb-8c2a-bf0d33c34f64-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/06607fc1-bba7-409f-9b70-fd82aabc5761-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/06d0279e-0786-43a6-b548-40bc61323215-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/07a973b2-f5e8-4cb1-a539-ed5eadb25089-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/0860b609-1477-4df7-a7fb-5648449d7bb8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/089a5e7e-58e8-449e-bd45-d8fbca2b44eb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/09eabcba-f16b-4cf1-bd9e-a1d1a2005d51-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/0c014ca0-1520-47d1-a723-509d39ec232f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/0d5d2cd9-aacb-4d00-90e6-e2ae4a3064cc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/0d5e6996-8931-43e0-a8eb-719daf031950-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/121b523a-0db1-4369-afe8-3a8d240dc747-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/1296932c-c89e-44dd-b5b4-6a69c4915b33-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/1346bc41-355a-46df-a2dd-8d7e7a0d5512-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/1385ca43-6fdf-408d-840e-f117076a97e2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/1447eb89-4786-4214-9759-4e664691c220-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/16d25031-cbdc-4a57-bcae-ac7ca0568d78-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/17bac108-b6e1-4dcc-8598-6624a3a81d68-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/18b27447-a12f-4a50-86a8-9c74d0dd6601-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/194bafe0-223b-41f3-9e12-448867386146-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/1a5f6254-064b-4c89-9bb2-8e95e9e8a648-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/1bd89e37-8126-4630-b8de-7fc271b1b6a4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/1c4592cb-e2cc-4ed8-b7d1-e5374724b8a3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/1cb7a0b6-cf6f-4eb1-8199-1cb8729040aa-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/1d98c395-f072-4223-8d0c-1494240bde79-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/1eddc3f2-f198-49ad-b28e-006288984ee8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/1fe9ee5f-0aac-4138-8528-94b50e7bb3dd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/20e080d4-32a1-464e-bee8-ebc44470b424-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/234985e7-df8c-4e22-90ff-3672e03aafac-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/259f1e56-f314-4d9a-9302-88c9fb5cfa23-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/276a09b9-a9b4-4140-9435-405814ac3fe7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/2b56aa7c-56d8-4882-8c29-a7bc14cb30ca-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/2cf8f2d8-04f5-4a96-a276-87deaf2431c9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/2e9c8bac-0451-4786-a5d1-4a8435bdb0cf-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/31d3edce-68dc-4f4c-a190-4790ba52fe1c-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/3475eaa5-1ccf-4544-b595-cd391debdcb6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/35d45cd0-a957-42a6-8479-1873b3d2f40f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/37006d40-6202-4708-b6d4-06648b5dbac7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/379f6a85-6336-4802-a49f-e4be4d34f3da-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/3ecdcd04-553d-4bd6-ad68-302278ee2fd1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/3f8c9197-72d9-4f41-88ae-4ca8964a0e02-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/4277e681-8ed9-4196-8308-5078a5359cee-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/45881061-8f74-4506-889d-2319ea3ead14-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/46ec985f-6de8-47d3-8ee3-fd57d0cca6cd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/48c8b115-d5ec-4767-bdf6-8cc04ff3ad84-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/4a780760-ebd1-4208-9f76-1ab6b5dd778f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/4aa8d2c2-c754-4be4-a839-79c6e2065cd7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/4b8a950e-3d8b-4a0c-b47c-78d3c8e9e187-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/4c016e54-adea-474d-8cad-78e9eac3829e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/5508a4dc-e4d5-481c-9af0-51910496073c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/575a1ed4-abd6-4fbc-8f11-cbeb6540aab9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/576a2f39-9fe6-424f-b1b1-8a53e835acf5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/5990752e-402e-4cfb-9284-d73972e51954-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/599d265a-c5d6-4974-93b3-1275de912663-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/59d58e75-c7c5-44ae-8d5b-bf72b746e933-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/5ab49be3-557f-42c9-b648-a97882c06e13-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/5ca9ea54-3f3a-45dd-8c3f-afde0a22518d-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/5e39d606-06df-42f5-bd01-ce9bdd388d85-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/5f6c3ade-abcc-4a05-97ef-6a3c10908821-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/5fed8232-3677-4551-bddb-739ecbd8887e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/66ba4532-900a-43d3-a303-f1bb504feeda-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/6b613aec-d2b0-4059-9ff6-b6fecf47d78e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/6ba0ca0e-2cf1-44e1-b933-a940d6dcd11c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/6c8f369a-f792-4568-96e5-4febf91024a7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/6d88f371-7232-4f68-8926-b3709abbfb34-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/70d19fb0-65de-4748-b915-fc69d5c71a01-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/72729c27-0f56-4743-8200-f1198de9ae33-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/75040c60-6afb-4673-8467-78b073eb63d6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/75ae9df6-e6e5-4e00-8f5d-2b739de84d8d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/7663acb8-fe4d-4c4a-af09-4fc74c283067-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/770aa24b-341d-4e0e-8bd8-26c3dbcce4a0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/8137611a-12b5-47c5-b88b-10c1656e6f71-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/832f604f-d781-49d7-bd79-e17665a05ebc-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/834df7b7-632a-40e4-a6a4-4f7b0355b26a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/85e874ea-3c37-4397-a6e6-4ee972874baa-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/873d7d45-a260-4880-a9c5-8df72b7aad94-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/89f93f31-1634-4c01-a515-a9d3ac2d8580-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/8b40ae74-9986-4869-b7c5-e13d711858bd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/8b4b5d6e-34a0-4032-b9fe-86a8eeacc497-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/8cf1ff13-767b-452a-adf3-724d6f5497a3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/8daa7cd6-f36f-432a-ad30-67ee763e8240-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/8e51b126-ac49-4a9d-819b-03cd7652b184-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/9493a686-1129-4bea-bc38-5c0abcdc1419-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/94da9600-84b0-49d3-b391-6216a9899289-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/97654b7a-8df7-4cb3-8109-02edb4522a51-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/9caadb24-05e0-43c9-9ef3-90c2c599e059-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/9cf7e1d2-216e-411a-8a4b-96da544ed96c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/9d83b2b8-d9f6-4eec-8593-7d135ffc183c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/9e1240b0-63aa-4760-ac96-d4812a5e49d2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/9f21f762-1b13-4432-b6b8-7790c2157177-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/a1eb6c94-b440-4e44-a6e8-6dc689f9a6c5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/a4cb2d96-f690-4de7-86f5-0f090f0285a7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/a6971fdb-ec64-40ca-b7fa-58297891aa2b-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/a76976eb-723c-4e8b-acba-c1b246d1b411-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/a9c95a27-773d-4c93-911c-88f2dce18da5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/ad17d3a1-db31-49a3-91e2-30195836fff9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/ad637d34-492e-4fbf-9534-f7a8beb6422b-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/b248d1ff-49ae-46aa-94ef-182433a257cf-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/b3bee1ca-c2d4-440a-9936-d44a9a813185-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/b5069edc-6e71-4fab-b8cd-0b3993ba9273-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/b7069f88-b4e8-4b4f-8f42-d93792bda169-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/b8845d10-8c74-4ab0-a29e-539363e866fb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/b8b14387-d444-4028-a3fa-1df52040c925-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/b9a6f57d-2108-4857-9269-443393b9ad22-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/bb395512-10f4-4296-857d-a946ce947eb9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/bb5be515-ec39-4846-94c8-9bd3aada4e05-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/bd4a5696-c6b4-4aba-b502-a78668d6109a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/bdbf37ca-f973-4503-b509-f58e78586b1b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/be45727f-9eed-4647-8670-95c1c8be5292-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/be71a5bf-223d-459b-928b-b36f858cddeb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/bf253464-d079-4ebd-a5e3-c8558160b17d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/c345f200-2e1a-435e-aa31-35c8fc2153ee-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/c3b723ca-a695-416f-8c13-4e7388e27eff-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/c4d69122-b9df-4485-bcf3-e791ebd6d780-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/c5c47d35-0d61-4d6d-bafd-75c5ad25e236-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/c69fd033-83be-4823-a020-72741c9f437d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/c753c63a-d7f0-43f1-9280-447ddfd539f1-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/c7638544-6dd2-4668-8fc2-373f63b6e9da-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/c9ede5ba-4195-40ca-86a7-82b9958e0b64-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/ca94ff66-f481-41db-b1e1-188c59c00270-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/cac5287e-0e0d-4de4-9ba9-b84172a83784-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/ce5b8fab-cd1f-4a67-958b-856fb37dc0f8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/d0c1ec4b-365b-4b3b-8938-3bfd19113787-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/d20c1bf8-060a-4862-abf0-4d68fec0c4ec-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/d241bd06-7219-4669-9e00-8e15a1c01e01-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/d455e3e7-77f5-480c-8c13-ed735b1f573a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/d51121af-9cef-4ffe-b05a-94ebaf78310b-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/d703c4a0-56a5-4359-9913-623d6bdbeb64-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/d7a899b1-0203-47ac-aa71-ada31db1bd1c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/d8417738-0156-4cc5-b647-5638c4e51968-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/db1bc047-f017-457f-930e-9a6870d726a3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/db6b79f1-acd7-47bd-8f96-a9e0c8e63bc6-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/df00b622-5ade-4f08-bdaa-bed0362b3780-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/e4a7d754-8982-4356-9c1d-a19add48e6ff-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/e5af7050-3123-4228-b61c-a4df489d0dfd-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/e70d722a-8f72-467f-ae34-4a8fe20e3c86-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/e78fa907-99b2-4166-8b5f-a5f6b4bef3ff-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/e9098143-a87f-4464-aeaf-d637d3be1b03-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/e924c8e1-31e7-4101-8a3c-732da2edbb80-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/e9f7dc59-9ace-46c4-98f1-4da16ecb4b49-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/eb7bd923-468b-4946-84da-720ecbbd66ea-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/ec5e1ad0-d8b6-4e08-924b-878e58760839-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/ec72b7ef-d137-4da3-818c-fe59688df755-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/edae1f1e-7e91-47c0-a98d-9f5f318007a1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/ee7faa41-283e-437b-bcc9-bff44fde65e8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/ef2b0e61-bd61-44a5-ab99-f66ecb8d9eb2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/ef803fc0-4300-4866-916c-f2f04bbffd56-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/f130ca08-021c-4110-bb8e-d67e2bc27f4f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/f2f34f5f-f2a7-456a-99fc-a03b2ac9919d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/f59f4302-4523-424a-848c-90887f550d6f-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/f6a4ff5c-ac23-4da9-a5eb-378b4afb494d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/f8bdfefe-7eb8-4f7f-a1d6-6327b093788c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/f9b8b9f7-f668-4bd0-aacf-d7bcb5c6b0e4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/fb22d079-9052-495f-be31-0f6a06b6f11f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/fbee152d-b1d9-4011-b419-6eded641baff-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/fbeed1f3-cd0f-46f2-a5d5-b649b567e875-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/fcd8d720-868c-4f22-aa33-6752590ec622-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/fde414c5-6d33-41b6-819f-92f41bf027e4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/allure/ff445a31-e872-43de-9e06-ec0c1a6ce61f-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/custom_size_img/时间的分钟.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/custom_size_img/时间的年份.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/custom_size_img/时间的日期.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/custom_size_img/时间的月份.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1704.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/开始时间_2020-01-07 14_22_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/筛选结果中的起始时间_2020-01-07 13_09_42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/app_automation_sh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/app_automation_sh.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/basepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/api_screen_orderbook.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/api_screen_orderbook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caps/conf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/caps/conf.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caps/desired_caps.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/caps/desired_caps.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caps/read_yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/caps/read_yaml.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/image_to_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/image_to_text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/orderbook_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/orderbook_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/0a8e36b9-bb16-4295-817a-ba1686eb2222-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/0e645986-1648-440f-862a-9059cf709d97-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/10121822-45b4-4316-a44d-1662409d492a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/115983da-2c89-4061-b2f3-9bf597be9151-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/1752b4b0-5eff-475b-aab9-27ca2747e238-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/32bf8000-7f0b-4326-be88-656feef31513-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/3517a9be-26c6-4a4b-b944-ce3d35d76f54-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/4f80e740-aa67-4ce6-bf99-24d6fa4e927f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/52e81692-f0fe-4461-afa1-b14052e20eac-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/5973d924-462a-42e1-8823-c0a26622c437-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/5fb0cd62-b504-4ef0-abdc-a1aab5b860b0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/6ad0a0d2-e279-4add-aa26-ed5968c18d63-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/710aab1d-f7be-4acc-ab9c-1a201a24740f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/77334c62-8699-426b-9aa9-97937ae71435-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/7a70fb17-7d6e-4eb2-98f0-74fbc583d34f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/87c1eae0-1349-45f9-87b9-8c2050d24122-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/8d11cdc0-fc82-4711-a6c4-f5f0498b193e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/9608a065-565e-4a88-a144-5d1e2cd59652-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/99a155bf-ac56-4575-91b0-2de7d64b13fd-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/a2f893a8-5756-412e-acff-842f395c8c51-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/b0792229-48f3-4ea0-b423-cc2e13dc2738-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/b08ea07b-ea80-439f-9603-f302bbbde22e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/b6e27105-6469-4619-a3d2-e280df904342-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/d7f37d9b-7d3b-4380-92d9-c5a21334eaad-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/e5f1bbc1-41a2-4423-ab77-5a815d78388d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/e8fd8881-61b5-4aea-a658-eb4755aeb738-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/e9b2fd87-3cf4-4341-b2fb-a40b2061fa04-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/ecfb2acd-00d5-4269-b3b2-119380483941-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/f08f979c-422e-4fb0-b541-05bd9be4e9d1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/f47f2f0e-2f84-4b54-8049-a39f3bfd6705-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/f4895381-713d-4662-a0e0-329a5c3f00b8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/allure/f696f585-ff01-42f4-8571-d3befe56b478-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-01-03 1802.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-01-03 1803.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-01-03 1807.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/custom_size_img/开始时间的年份.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/custom_size_img/开始时间的日期.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/custom_size_img/开始时间的月份.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/custom_size_img/时间的小时.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/custom_size_img/时间的小时.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/reports/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/screenshots/开始时间_2020-01-03 17_20_25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/screenshots/筛选结果的返回按钮_2020-01-03 17_24_23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_locators/orderbook_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_locators/orderbook_page_locator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page_ojbects/orderbook_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_ojbects/orderbook_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_cases/test_orderbook.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_orderbook.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/demo.py" afterDir="false" />
@@ -133,39 +204,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/orderbook_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="166">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/api_screen_orderbook.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
               <folding>
-                <element signature="e#167#173#0" expanded="true" />
+                <element signature="e#166#180#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page_locators/orderbook_page_locator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="707">
-              <caret line="190" selection-start-line="190" selection-end-line="190" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page_ojbects/orderbook_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="841" selection-start-line="841" selection-end-line="841" />
+            <state relative-caret-position="340">
+              <caret line="899" lean-forward="true" selection-start-line="899" selection-end-line="899" />
               <folding>
                 <element signature="e#165#176#0" expanded="true" />
-                <element signature="e#527#15132#0" />
-                <element signature="e#15210#19931#0" />
-                <element signature="e#20031#25207#0" />
-                <element signature="e#25285#26452#0" />
-                <element signature="e#37662#39460#0" />
+                <element signature="e#25387#26554#0" />
               </folding>
             </state>
           </provider>
@@ -174,8 +241,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_cases/test_orderbook.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="200">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -183,8 +250,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="74">
+              <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -192,8 +259,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="25" column="60" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+            <state relative-caret-position="119">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#169#178#0" expanded="true" />
               </folding>
@@ -210,14 +277,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/API/demo.py" />
-        <option value="$PROJECT_DIR$/common/tools.py" />
         <option value="$PROJECT_DIR$/common/logger.py" />
         <option value="$PROJECT_DIR$/page_locators/orderbook_page_locator.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/util/demo.py" />
         <option value="$PROJECT_DIR$/common/basepage.py" />
-        <option value="$PROJECT_DIR$/common/image_to_text.py" />
         <option value="$PROJECT_DIR$/test_cases/test_orderbook.py" />
+        <option value="$PROJECT_DIR$/util/demo.py" />
+        <option value="$PROJECT_DIR$/common/image_to_text.py" />
+        <option value="$PROJECT_DIR$/caps/desired_caps.yaml" />
+        <option value="$PROJECT_DIR$/caps/conf.yaml" />
+        <option value="$PROJECT_DIR$/caps/produce.yaml" />
+        <option value="$PROJECT_DIR$/caps/test.yaml" />
+        <option value="$PROJECT_DIR$/API/api_screen_orderbook.py" />
+        <option value="$PROJECT_DIR$/common/tools.py" />
+        <option value="$PROJECT_DIR$/caps/env.yaml" />
+        <option value="$PROJECT_DIR$/caps/read_yaml.py" />
         <option value="$PROJECT_DIR$/data/orderbook_data.py" />
         <option value="$PROJECT_DIR$/page_ojbects/orderbook_page.py" />
       </list>
@@ -229,19 +303,40 @@
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="app_automation_sh" type="b2602c69:ProjectViewProjectNode" />
               <item name="app_automation_sh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_automation_sh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_automation_sh" type="462c0819:PsiDirectoryNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_automation_sh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_automation_sh" type="462c0819:PsiDirectoryNode" />
+              <item name="caps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_automation_sh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_automation_sh" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_automation_sh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_automation_sh" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app_automation_sh" type="b2602c69:ProjectViewProjectNode" />
@@ -258,6 +353,12 @@
               <item name="app_automation_sh" type="b2602c69:ProjectViewProjectNode" />
               <item name="app_automation_sh" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_automation_sh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_automation_sh" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
               <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -269,20 +370,33 @@
             <path>
               <item name="app_automation_sh" type="b2602c69:ProjectViewProjectNode" />
               <item name="app_automation_sh" type="462c0819:PsiDirectoryNode" />
+              <item name="page_ojbects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_automation_sh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_automation_sh" type="462c0819:PsiDirectoryNode" />
+              <item name="test_cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app_automation_sh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_automation_sh" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web_automation_lefu_fuwu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api_automation_lefu_shanghu" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\app_automation_sh\caps" />
       <recent name="C:\Users\Administrator\PycharmProjects\app_automation_sh" />
     </key>
   </component>
@@ -320,7 +434,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="image_to_text" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="app_automation_sh" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -332,7 +446,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/logger.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/image_to_text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -362,7 +476,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="orderbook_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="read_yaml" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="app_automation_sh" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -370,11 +484,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/caps" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/orderbook_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/caps/read_yaml.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -408,9 +522,9 @@
       <list>
         <item itemvalue="Python.main" />
         <item itemvalue="Python.tools" />
+        <item itemvalue="Python.read_yaml" />
+        <item itemvalue="Python.image_to_text" />
         <item itemvalue="Python.demo" />
-        <item itemvalue="Python.orderbook_data" />
-        <item itemvalue="Python.logger" />
       </list>
     </recent_temporary>
   </component>
@@ -432,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578046111462</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="version 2020010601">
+      <created>1578305450840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578305450840</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -443,7 +564,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4452871" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4582882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -459,60 +580,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version 2020010301" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2020010301" />
+    <MESSAGE value="version 2020010601" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2020010601" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/util/lefu_fuwu.py" />
-    <entry file="file://$PROJECT_DIR$/util/demo.jpg" />
-    <entry file="file://$PROJECT_DIR$/API/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#166#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/datedelta.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3259">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-603">
-          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/logs/Web_Autotest_2020-01-03 1740.log" />
-    <entry file="file://$PROJECT_DIR$/output/logs/Web_Autotest_2020-01-03 1737.log" />
-    <entry file="file://$PROJECT_DIR$/output/logs/Web_Autotest_2020-01-03 1741.log" />
-    <entry file="file://$PROJECT_DIR$/output/logs/Web_Autotest_2020-01-03 1749.log" />
-    <entry file="file://$PROJECT_DIR$/output/logs/Web_Autotest_2020-01-03 1752.log" />
-    <entry file="file://$PROJECT_DIR$/page_ojbects/logout_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/screenshots/支付状态 已退款 按钮_2020-01-06 13_50_41.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/screenshots/支付状态 已退款 按钮_2020-01-06 13_42_20.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-1055577769/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-588">
@@ -534,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="84" selection-start-line="84" selection-end-line="88" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/basepage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
@@ -548,95 +612,244 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-06 1706.log" />
+    <entry file="file://$PROJECT_DIR$/output/custom_size_img/开始时间的年份.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/custom_size_img/开始时间的月份.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/custom_size_img/开始时间的日期.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/custom_size_img/开始时间的小时.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/custom_size_img/开始时间的分钟.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/custom_size_img/时间的月份.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/custom_size_img/时间的年份.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_locators/orderbook_page_locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="195" column="4" selection-start-line="195" selection-start-column="4" selection-end-line="195" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/screenshots/筛选结果中的起始时间_2020-01-07 13_09_42.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/dir_config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/adb_oper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1459.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1454.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1439.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1438.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1437.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1436.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1433.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1432.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1431.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1425.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-253" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caps/desired_caps.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1525.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1500.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-17022" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="e#166#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caps/conf.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="65" lean-forward="true" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/http_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caps/test.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1550.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1533.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-6988">
+          <caret line="548" column="109" selection-start-line="548" selection-start-column="109" selection-end-line="548" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/image_to_text.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="748">
+          <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
           <folding>
             <element signature="e#166#198#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/dir_config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-06 1706.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_cases/test_orderbook.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="200">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_locators/orderbook_page_locator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="190" selection-start-line="190" selection-end-line="190" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/custom_size_img/时间的年份.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/custom_size_img/时间的月份.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/custom_size_img/开始时间的年份.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/output/custom_size_img/时间的日期.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/custom_size_img/开始时间的月份.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_ojbects/orderbook_page.py">
+    <entry file="file://$PROJECT_DIR$/caps/env.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="841" selection-start-line="841" selection-end-line="841" />
-          <folding>
-            <element signature="e#165#176#0" expanded="true" />
-            <element signature="e#527#15132#0" />
-            <element signature="e#15210#19931#0" />
-            <element signature="e#20031#25207#0" />
-            <element signature="e#25285#26452#0" />
-            <element signature="e#37662#39460#0" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/tools.py">
+    <entry file="file://$PROJECT_DIR$/caps/produce.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="25" column="60" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-          <folding>
-            <element signature="e#169#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/custom_size_img/开始时间的日期.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output/custom_size_img/时间的小时.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/caps/read_yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#165#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/custom_size_img/时间的分钟.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/api_screen_orderbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding>
+            <element signature="e#166#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#169#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/orderbook_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="166">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/App_Automation_2020-01-07 1646.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="173">
+          <caret line="246" column="97" selection-start-line="246" selection-start-column="80" selection-end-line="246" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_ojbects/orderbook_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="899" lean-forward="true" selection-start-line="899" selection-end-line="899" />
           <folding>
-            <element signature="e#167#173#0" expanded="true" />
+            <element signature="e#165#176#0" expanded="true" />
+            <element signature="e#25387#26554#0" />
           </folding>
         </state>
       </provider>

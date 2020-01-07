@@ -44,13 +44,13 @@ success_data = [
 def order_screen_data():
     data = []
 
-    # time_list = ["本月", "近7天", "近24小时", {"time_start": "2019-12-03 15:30", "time_end": "2020-01-06 09:59"}]
+    # time_list = ["本月", "近7天", "近24小时", {"time_start": "2019-12-15 11:30", "time_end": "2020-01-07 13:11"}]
     # store_list = ["全部门店", {"name": "吉野家日式料理店", "id": "2019121716261782222"}, {"name": "吉野家日式料理店", "id": "2019121716261782222"}]
     # terminal_list = ["全部终端", {"name": "收款一号机", "terminal_id": "qr_pay:NO_2018122515457307981444"}]
     # payment_list = ["全部", "微信", "支付宝", "刷卡", "预授权", "其他"]
     # status_list = ["全部订单", "支付成功", "退款成功"]
 
-    time_list = [{"time_start": "2018-03-03 15:30", "time_end": "2020-01-06 09:59"}]
+    time_list = [{"time_start": "2019-12-15 16:30", "time_end": "2020-01-07 13:15"}]
     store_list = [{"name": "吉野家日式料理店", "id": "2019121716261782222"}, {"name": "吉野家日式料理店", "id": "2019121716261782222"}]
     terminal_list = [{"name": "收款一号机", "terminal_id": "qr_pay:NO_2018122515457307981444"}]
     payment_list = ["其他"]
@@ -78,6 +78,7 @@ def order_screen_data():
 
                         data.append(res)
     logging.info("测试数据: {}".format(data))
+    logging.info("账单筛选测试数据量: {}".format(len(data)))
     return data
 
 

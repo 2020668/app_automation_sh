@@ -14,6 +14,7 @@ from time import sleep
 import sys
 from aip import AipOcr
 import os
+import time
 import logging
 
 from common.dir_config import CUSTOM_SIZE_IMG_DIR
@@ -27,6 +28,9 @@ class BaiduAIP(object):
     Pillow  Pillow-PIL  baidu-aip  beautifulsoup4  certifi
     cardet  gImageGrabber  idna  keyboard  pip
     requests  selenium  setuptools  urllib3
+
+    识别成功率不是百分百
+
     """
 
     def picture_text(self, file_path):
@@ -39,9 +43,11 @@ class BaiduAIP(object):
         image = self.get_file_content(file_path)
         texts = aipocr.basicGeneral(image)
         allTexts = ''
+
         for words in texts['words_result']:
             allTexts = allTexts + ''.join(words.get('words', ''))
-        logging.info("文字识别成功,返回值-->{}".format(allTexts))
+        logging.info("文字识别成功,返回值-->{}".format(allTexts) if allTexts != '' else "文字识别失败,返回空str")
+        time.sleep(1)
         return allTexts
 
     #   print(texts)
@@ -69,7 +75,10 @@ def screen_shot():
 
 
 if __name__ == '__main__':
-    api = API()
-    test = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "登录页.png"))
+    api = BaiduAIP()
+    test = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "时间的小时.png"))
     print(test)
+    print(type(test))
+    if test == '':
+        print("识别失败,返回为None")
 
