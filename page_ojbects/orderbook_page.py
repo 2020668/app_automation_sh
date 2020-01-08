@@ -607,8 +607,8 @@ class OrderBookPage(BasePage):
             self.wait_ele_visible(loc=Loc.status_success_loc, img_desc="支付状态 收款成功 按钮")
             self.click_element(loc=Loc.status_success_loc, img_desc="支付状态 收款成功 按钮")
         elif status == "退款成功":
-            self.wait_ele_visible(loc=Loc.status_refund_loc, img_desc="支付状态 已退款 按钮")
-            self.click_element(loc=Loc.status_refund_loc, img_desc="支付状态 已退款 按钮")
+            self.wait_ele_visible(loc=Loc.status_refund_loc, img_desc="支付状态 退款成功 按钮")
+            self.click_element(loc=Loc.status_refund_loc, img_desc="支付状态 退款成功 按钮")
 
         self.wait_ele_visible(loc=Loc.confirm_loc, img_desc="筛选界面的确定按钮")
         self.click_element(loc=Loc.confirm_loc, img_desc="筛选界面的确定按钮")
@@ -784,16 +784,16 @@ class OrderBookPage(BasePage):
         """
         如出现第一个00识别失败,可先滑动一格再来获取值进行判断
         :param datetime:
-        :return:
+        :return: None
         """
 
         time.sleep(1)
-
-        year = datetime[:4]
-        month = datetime[5:7]
-        day = datetime[8:10]
-        hour = datetime[11:13]
-        minute = datetime[14:16]
+        # 分别获取年月日小时分钟并转换成int型
+        year = int(datetime[:4])
+        month = int(datetime[5:7])
+        day = int(datetime[8:10])
+        hour = int(datetime[11:13])
+        minute = int(datetime[14:16])
         logging.info("滑动输入的时间为-->{}{}{}{}{}".format(year, month, day, hour, minute))
 
         # 处理year  先截图获取文本 判断 是否滑动
@@ -807,6 +807,7 @@ class OrderBookPage(BasePage):
             # 获取截图的文本
             api = BaiduAIP()
             text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "时间的年份.png"))
+            text = int(text) if text != '' else 1
             logging.info("当前年份是-->{}, 继续滑动...".format(text) if text != year else "年份-->{} 滑动选中OK".format(text))
 
             if text == year:
@@ -826,18 +827,19 @@ class OrderBookPage(BasePage):
 
             api = BaiduAIP()
             text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "时间的月份.png"))
+            text = int(text) if text != '' else 1
             logging.info("当前的月份是-->{}, 继续滑动...".format(text) if text != month else "月份-->{} 滑动选中OK".format(text))
 
             if text == month:
                 break
             elif text < month:
-                delta = int(month) - int(text) if text != '' else 1
+                delta = month - text if text != '' else 1
                 i = 0
                 while i < delta:
                     self.swipe_diy(start_width=0.3, start_height=0.9, end_width=0.3, end_height=0.87)
                     i += 1
             else:
-                delta = int(text) - int(month) if text != '' else 1
+                delta = text - month if text != '' else 1
                 i = 0
                 while i < delta:
                     self.swipe_diy(start_width=0.3, start_height=0.87, end_width=0.3, end_height=0.9)
@@ -853,6 +855,7 @@ class OrderBookPage(BasePage):
 
             api = BaiduAIP()
             text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "时间的日期.png"))
+            text = int(text) if text != '' else 1
             logging.info("当前的日期是-->{}, 继续滑动...".format(text) if text != day else "日期-->{} 滑动选中OK".format(text))
 
             if text == day:
@@ -860,13 +863,13 @@ class OrderBookPage(BasePage):
 
             elif text < day:
                 # 防止数字识别失败 返回空字符串 给个默认值1
-                delta = int(day) - int(text) if text != '' else 1
+                delta = day - text if text != '' else 1
                 i = 0
                 while i < delta:
                     self.swipe_diy(start_width=0.49, start_height=0.9, end_width=0.49, end_height=0.87)
                     i += 1
             else:
-                delta = int(text) - int(day) if text != '' else 1
+                delta = text - day if text != '' else 1
                 i = 0
                 while i < delta:
                     self.swipe_diy(start_width=0.49, start_height=0.87, end_width=0.49, end_height=0.9)
@@ -881,18 +884,19 @@ class OrderBookPage(BasePage):
 
             api = BaiduAIP()
             text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "时间的小时.png"))
+            text = int(text) if text != '' else 1
             logging.info("当前的小时是-->{}, 继续滑动...".format(text) if text != hour else "小时-->{} 滑动选中OK".format(text))
 
             if text == hour:
                 break
             elif text < hour:
-                delta = int(hour) - int(text) if text != '' else 1
+                delta = hour - text if text != '' else 1
                 i = 0
                 while i < delta:
                     self.swipe_diy(start_width=0.68, start_height=0.9, end_width=0.68, end_height=0.87)
                     i += 1
             else:
-                delta = int(text) - int(hour) if text != '' else 1
+                delta = text - hour if text != '' else 1
                 i = 0
                 while i < delta:
                     self.swipe_diy(start_width=0.68, start_height=0.87, end_width=0.68, end_height=0.9)
@@ -908,18 +912,19 @@ class OrderBookPage(BasePage):
             # 获取截图的文本
             api = BaiduAIP()
             text = api.picture_text(os.path.join(CUSTOM_SIZE_IMG_DIR, "时间的分钟.png"))
+            text = int(text) if text != '' else 1
             logging.info("当前的分钟是-->{}, 继续滑动...".format(text) if text != minute else "分钟-->{} 滑动选中OK".format(text))
 
             if text == minute:
                 break
             elif text < minute:
-                delta = int(minute) - int(text) if text != '' else 1
+                delta = minute - text if text != '' else 1
                 i = 0
                 while i < delta:
                     self.swipe_diy(start_width=0.88, start_height=0.9, end_width=0.88, end_height=0.87)
                     i += 1
             else:
-                delta = int(text) - int(minute) if text != '' else 1
+                delta = text - minute if text != '' else 1
                 i = 0
                 while i < delta:
                     self.swipe_diy(start_width=0.88, start_height=0.87, end_width=0.88, end_height=0.9)

@@ -283,12 +283,12 @@ class BasePage(object):
         try:
             self.driver.swipe(size["width"] * start_width, size["height"] * start_height, size["width"] * end_width,
                               size["height"] * end_height, 1000)
-            logging.info(
-                "页面上下滑动，页面从坐标：{} 滑动到坐标：{}".format(size["height"] * start_height, size["height"] * end_height))
+            logging.info("页面滑动，从坐标：{},{} 滑动到坐标：{},{}".format(size["width"] * start_width, size["height"] * start_height,
+                                                             size["width"] * end_width, size["height"] * end_height))
             time.sleep(1)
         except:
-            logging.exception("页面上下滑动失败！！")
-            self.save_img("页面上下滑动失败")
+            logging.exception("页面滑动失败！！")
+            self.save_img("页面滑动失败")
             raise
 
     # 上下左右滑动 up down left right

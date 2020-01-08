@@ -52,3 +52,4 @@ if __name__ == '__main__':
     # print("error")
     # SendEmail.send_qq1_file_mail(mail_title, mail_message, file_path)
 
+

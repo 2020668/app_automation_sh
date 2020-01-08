@@ -128,6 +128,14 @@ def dem():
     print(x)
 
 
+def a1():
+    x = [1, 2, 3]
+    y = [4, 5, 6]
+    z = x + y
+    print(z)
+
+
 if __name__ == '__main__':
     # relative_position()
-    dem()
+    a1()
+

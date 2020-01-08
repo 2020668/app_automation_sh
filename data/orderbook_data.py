@@ -40,7 +40,7 @@ success_data = [
 ]
 
 
-# 筛选条件组合
+# 筛选条件组合 子门店的数据加上主门店的数据一起 list相加
 def order_screen_data():
     data = []
 
@@ -50,11 +50,17 @@ def order_screen_data():
     # payment_list = ["全部", "微信", "支付宝", "刷卡", "预授权", "其他"]
     # status_list = ["全部订单", "支付成功", "退款成功"]
 
-    time_list = ["近7天", "近24小时", {"time_start": "2019-12-15 11:30", "time_end": "2020-01-07 13:11"}]
-    store_list = [{"name": "吉野家一分店", "id": "2019122413571152189"}]
+    # time_list = [{"time_start": "2019-12-15 11:30", "time_end": "2020-01-07 13:11"}]
+    # store_list = [{"name": "吉野家日式料理店", "id": "2019121716261782222"}]
+    # terminal_list = ["全部终端"]
+    # payment_list = ["全部", "刷卡", "预授权", "其他"]
+    # status_list = ["全部订单", "支付成功", "退款成功"]
+
+    time_list = [{"time_start": "2019-12-15 11:30", "time_end": "2020-01-07 13:11"}]
+    store_list = [{"name": "吉野家日式料理店", "id": "2019121716261782222"}]
     terminal_list = ["全部终端"]
-    payment_list = ["全部", "微信", "支付宝", "刷卡", "预授权", "其他"]
-    status_list = ["全部订单", "支付成功", "退款成功"]
+    payment_list = ["全部"]
+    status_list = ["全部订单", "支付成功"]
 
     for time in time_list:
         for store in store_list:
