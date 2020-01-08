@@ -38,13 +38,13 @@ if __name__ == '__main__':
     file_path = os.path.join(LOGS_DIR, log_name)
 
     """
-    参数 -s 允许终端运行时输出某些结果，例如print
+    参数 -s 允许终端运行时输出某些结果，例如pri
     -v 输出详细测试结果
     -m 只运行指定标签名的测试用例
     -x 测试用例失败时停止
     """
     pytest.main(
-        ["-s", "-v", "-m", "screen", "--html=output/reports/report.html", "--alluredir=output/allure"])
+        ["-s", "-x", "-m", "screen", "--html=output/reports/report.html", "--alluredir=output/allure"])
 
     # 直接打开报告
     os.system("allure serve output/allure")

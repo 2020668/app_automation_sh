@@ -37,7 +37,7 @@ def api_my_order_book(login_phone, login_pwd, page, terminal_name, terminal_id, 
     """
 
     # url = "https://api.hczypay.com/api/merchant/myOrderBook"
-    url = conf.get("env").get("url") + "/api/merchant/myOrderBook"
+    url = conf.get("env").get("url") + "/api/merchant/billList"
 
     # 调用登录方法获取
     token = get_token(phone=login_phone, pwd=login_pwd,
