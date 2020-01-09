@@ -1,0 +1,102 @@
+INFO     root:basepage.py:42 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:01.916075
+INFO     root:basepage.py:42 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.151077
+INFO     root:basepage.py:79 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功
+INFO     root:basepage.py:148 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：18971335925 成功！
+INFO     root:basepage.py:42 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:00.610047
+INFO     root:basepage.py:79 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功
+INFO     root:basepage.py:148 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值：335925 成功！
+INFO     root:basepage.py:42 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:00.612381
+INFO     root:basepage.py:79 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功
+INFO     root:basepage.py:121 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+INFO     root:basepage.py:42 等待 账单按钮  元素  ('-android uiautomator', 'new UiSelector().text("账单")') 可见成功。耗时：0:00:01.864756
+INFO     root:basepage.py:42 等待 账单按钮  元素  ('-android uiautomator', 'new UiSelector().text("账单")') 可见成功。耗时：0:00:00.197472
+INFO     root:basepage.py:79 查找  账单按钮 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 成功
+INFO     root:basepage.py:121 点击  账单按钮 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 成功！
+INFO     root:basepage.py:42 等待 筛选按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 可见成功。耗时：0:00:01.304622
+INFO     root:basepage.py:42 等待 筛选按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 可见成功。耗时：0:00:00.132644
+INFO     root:basepage.py:79 查找  筛选按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 成功
+INFO     root:basepage.py:121 点击  筛选按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 成功！
+INFO     root:basepage.py:42 等待 开始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 可见成功。耗时：0:00:00.885191
+INFO     root:basepage.py:42 等待 开始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 可见成功。耗时：0:00:00.159995
+INFO     root:basepage.py:79 查找  开始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 成功
+INFO     root:basepage.py:121 点击  开始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 成功！
+INFO     root:orderbook_page.py:797 滑动输入的时间为-->201912151130
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:230 截图成功，截图保存在：E:\PycharmProjects\app_automation_sh\output/custom_size_img\时间的年份.png
+INFO     root:image_to_text.py:49 文字识别成功,返回值-->2020
+INFO     root:orderbook_page.py:811 当前年份是-->2020, 继续滑动...
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：108.0,1799.16 滑动到坐标：108.0,1861.2
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:230 截图成功，截图保存在：E:\PycharmProjects\app_automation_sh\output/custom_size_img\时间的年份.png
+INFO     root:image_to_text.py:49 文字识别成功,返回值-->2019
+INFO     root:orderbook_page.py:811 年份-->2019 滑动选中OK
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:230 截图成功，截图保存在：E:\PycharmProjects\app_automation_sh\output/custom_size_img\时间的月份.png
+INFO     root:image_to_text.py:49 文字识别成功,返回值-->01
+INFO     root:orderbook_page.py:831 当前的月份是-->1, 继续滑动...
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：324.0,1861.2 滑动到坐标：324.0,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：324.0,1861.2 滑动到坐标：324.0,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：324.0,1861.2 滑动到坐标：324.0,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：324.0,1861.2 滑动到坐标：324.0,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：324.0,1861.2 滑动到坐标：324.0,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：324.0,1861.2 滑动到坐标：324.0,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：324.0,1861.2 滑动到坐标：324.0,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：324.0,1861.2 滑动到坐标：324.0,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：324.0,1861.2 滑动到坐标：324.0,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：324.0,1861.2 滑动到坐标：324.0,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：324.0,1861.2 滑动到坐标：324.0,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:230 截图成功，截图保存在：E:\PycharmProjects\app_automation_sh\output/custom_size_img\时间的月份.png
+INFO     root:image_to_text.py:49 文字识别成功,返回值-->12
+INFO     root:orderbook_page.py:831 月份-->12 滑动选中OK
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:230 截图成功，截图保存在：E:\PycharmProjects\app_automation_sh\output/custom_size_img\时间的日期.png
+INFO     root:image_to_text.py:49 文字识别成功,返回值-->01
+INFO     root:orderbook_page.py:859 当前的日期是-->1, 继续滑动...
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：529.2,1861.2 滑动到坐标：529.2,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：529.2,1861.2 滑动到坐标：529.2,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：529.2,1861.2 滑动到坐标：529.2,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：529.2,1861.2 滑动到坐标：529.2,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：529.2,1861.2 滑动到坐标：529.2,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：529.2,1861.2 滑动到坐标：529.2,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：529.2,1861.2 滑动到坐标：529.2,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：529.2,1861.2 滑动到坐标：529.2,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：529.2,1861.2 滑动到坐标：529.2,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：529.2,1861.2 滑动到坐标：529.2,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：529.2,1861.2 滑动到坐标：529.2,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：529.2,1861.2 滑动到坐标：529.2,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：529.2,1861.2 滑动到坐标：529.2,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:287 页面滑动，从坐标：529.2,1861.2 滑动到坐标：529.2,1799.16
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:230 截图成功，截图保存在：E:\PycharmProjects\app_automation_sh\output/custom_size_img\时间的日期.png
+INFO     root:image_to_text.py:49 文字识别成功,返回值-->15
+INFO     root:orderbook_page.py:859 日期-->15 滑动选中OK
+INFO     root:basepage.py:247 当前设备的大小为：{'width': 1080, 'height': 2068}
+INFO     root:basepage.py:230 截图成功，截图保存在：E:\PycharmProjects\app_automation_sh\output/custom_size_img\时间的小时.png
+INFO     root:image_to_text.py:49 文字识别成功,返回值-->功
