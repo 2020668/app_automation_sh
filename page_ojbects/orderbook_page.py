@@ -543,20 +543,23 @@ class OrderBookPage(BasePage):
 
 # ================================= C H O I C E     S T O R E =================================
 
-        if store_name != "全部门店":
+        if store_name:
+            if store_name != "全部门店":
 
-            # 选择门店
-            self.wait_ele_visible(loc=Loc.store_choose_loc, img_desc="选择门店按钮")
-            self.click_element(loc=Loc.store_choose_loc, img_desc="选择门店按钮")
+                # 选择门店
+                self.wait_ele_visible(loc=Loc.store_choose_loc, img_desc="选择门店按钮")
+                self.click_element(loc=Loc.store_choose_loc, img_desc="选择门店按钮")
 
-            self.wait_ele_visible(loc=Loc.all_store_name_loc, img_desc="所有门店按钮")
-            self.click_element(loc=Loc.all_store_name_loc, img_desc="所有门店按钮")
+                self.wait_ele_visible(loc=Loc.all_store_name_loc, img_desc="所有门店按钮")
+                self.click_element(loc=Loc.all_store_name_loc, img_desc="所有门店按钮")
 
-            self.wait_ele_visible(loc=store_name_loc, img_desc="门店->{}".format(store_name))
-            self.click_element(loc=store_name_loc, img_desc="门店->{}".format(store_name))
+                self.wait_ele_visible(loc=store_name_loc, img_desc="门店->{}".format(store_name))
+                self.click_element(loc=store_name_loc, img_desc="门店->{}".format(store_name))
 
-            self.wait_ele_visible(loc=Loc.store_confirm_loc, img_desc="选择门店后的确定按钮")
-            self.click_element(loc=Loc.store_confirm_loc, img_desc="选择门店后的确定按钮")
+                self.wait_ele_visible(loc=Loc.store_confirm_loc, img_desc="选择门店后的确定按钮")
+                self.click_element(loc=Loc.store_confirm_loc, img_desc="选择门店后的确定按钮")
+            else:
+                pass
         else:
             pass
 
@@ -707,7 +710,11 @@ class OrderBookPage(BasePage):
 
         assert screen_result_end_time == api_time_end
 
-        assert screen_result_store_name == api_store_name
+        # 子门店无需断言门店名称
+        if store_name:
+            assert screen_result_store_name == api_store_name
+        else:
+            pass
 
         assert screen_result_payment == type_source
 
