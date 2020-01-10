@@ -503,6 +503,8 @@ class OrderBookPage(BasePage):
         self.wait_ele_visible(loc=Loc.order_nav_loc, img_desc="账单按钮")
         self.click_element(loc=Loc.order_nav_loc, img_desc="账单按钮")
 
+        time.sleep(1)
+
         self.wait_ele_visible(loc=Loc.screen_loc, img_desc="筛选按钮")
         self.click_element(loc=Loc.screen_loc, img_desc="筛选按钮")
 
