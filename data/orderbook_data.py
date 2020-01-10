@@ -201,7 +201,7 @@ def order_child_cashier_screen_data():
     # 调试数据
     time_list = ["本月"]
     terminal_list = ["全部终端"]
-    payment_list = ["全部"]
+    payment_list = ["全部", "微信", "支付宝"]
     status_list = ["全部订单", "支付成功", "退款成功"]
 
     for time in time_list:
