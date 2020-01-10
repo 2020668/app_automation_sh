@@ -199,7 +199,7 @@ def order_child_cashier_screen_data():
     # status_list = ["全部订单", "支付成功", "退款成功"]
 
     # 调试数据
-    time_list = ["本月", "近7天", "近24小时"]
+    time_list = ["本月"]
     terminal_list = ["全部终端", {"name": "收款1号机", "terminal_id": "qr_pay:NO_2018122515457307773472"}]
     payment_list = ["全部", "微信"]
     status_list = ["全部订单", "支付成功", "退款成功"]
