@@ -27,7 +27,7 @@ class LoginPage(BasePage):
         self.input_text(Loc.user_loc, value=username, img_desc="登录页_输入用户名")
         self.input_text(Loc.pwd_loc, value=pwd, img_desc="登录页_输入密码")
         self.click_element(Loc.login_button_loc, img_desc="登录页_点击登录按钮")
-        time.sleep(1)
+        time.sleep(2)
         return self
 
     # 获取登出状态
