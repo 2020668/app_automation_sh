@@ -193,16 +193,16 @@ def order_child_cashier_screen_data():
     data = []
 
     # 子门店收银员 筛选 没有门店可选  144
-    # time_list = ["本月", "近7天", "近24小时", {"time_start": "2019-12-10 08:03", "time_end": "2020-01-07 06:00"}]
-    # terminal_list = ["全部终端", {"name": "收款1号机", "terminal_id": "qr_pay:NO_2018122515457307773472"}]
-    # payment_list = ["全部", "微信", "支付宝", "刷卡", "预授权", "其他"]
-    # status_list = ["全部订单", "支付成功", "退款成功"]
+    time_list = ["本月", "近7天", "近24小时", {"time_start": "2019-12-10 08:03", "time_end": "2020-01-07 06:00"}]
+    terminal_list = ["全部终端", {"name": "收款1号机", "terminal_id": "qr_pay:NO_2018122515457307773472"}]
+    payment_list = ["全部", "微信", "支付宝", "刷卡", "预授权", "其他"]
+    status_list = ["全部订单", "支付成功", "退款成功"]
 
     # 调试数据
-    time_list = ["本月"]
-    terminal_list = ["全部终端"]
-    payment_list = ["全部", "微信", "支付宝"]
-    status_list = ["全部订单", "支付成功", "退款成功"]
+    # time_list = ["本月"]
+    # terminal_list = ["全部终端"]
+    # payment_list = ["全部", "微信", "支付宝"]
+    # status_list = ["全部订单", "支付成功", "退款成功"]
 
     for time in time_list:
         for terminal in terminal_list:
