@@ -1,0 +1,22 @@
+[
+  "test_cases/test_add_child_shop.py::TestAddChildShop::test_add_child_shop[data0]",
+  "test_cases/test_edit_child_shop_login_pwd.py::TestEditChildShopPwd::test_edit_child_shop_pwd[data0]",
+  "test_cases/test_login.py::TestLogin::test_login_0_success[data0]",
+  "test_cases/test_report.py::TestReport::test_report_all[data0]",
+  "test_cases/test_twenty_four_hours.py::TestTwentyFourHours::test_twenty_four_hours[data0]",
+  "test_cases/test_wechat_login.py::TestWecahtLogin::test_wechat_login_0_success[data0]",
+  "test_cases/test_orderbook.py::TestOrderBook::test_select_order_book[data0]",
+  "test_cases/test_orderbook.py::TestOrderBook::test_refund[data0]",
+  "test_cases/test_orderbook.py::TestOrderBook::test_screen_order[data0]",
+  "test_cases/test_orderbook.py::TestOrderBook::test_screen_order[data1]",
+  "test_cases/test_orderbook.py::TestOrderBook::test_screen_order[data2]",
+  "test_cases/test_orderbook.py::TestOrderBook::test_screen_order[data3]",
+  "test_cases/test_orderbook.py::TestOrderBook::test_screen_order[data4]",
+  "test_cases/test_orderbook.py::TestOrderBook::test_screen_order[data5]",
+  "test_cases/test_orderbook.py::TestOrderBook::test_screen_order[data6]",
+  "test_cases/test_orderbook.py::TestOrderBook::test_screen_order[data7]",
+  "test_cases/test_orderbook.py::TestOrderBook::test_screen_order[data8]",
+  "test_cases/test_orderbook.py::TestOrderBook::test_screen_order[data9]",
+  "test_cases/test_orderbook.py::TestOrderBook::test_screen_order[data10]",
+  "test_cases/test_orderbook.py::TestOrderBook::test_screen_order[data11]"
+]

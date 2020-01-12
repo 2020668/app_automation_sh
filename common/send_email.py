@@ -17,7 +17,7 @@ from email.mime.text import MIMEText  # 构造邮件文本内容
 from email.header import Header  # 构造邮件标题
 from email.mime.application import MIMEApplication  # 发送带附件的邮件
 from email.mime.multipart import MIMEMultipart  # 发送带附件的邮件
-import win32com.client as win32
+# import win32com.client as win32
 
 
 class SendEmail(object):

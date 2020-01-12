@@ -1,1 +1,0 @@
-ERROR    root:conftest.py:80 目前没有识别到可用设备，请确保至少1台设备可用！！

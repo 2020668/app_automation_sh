@@ -36,7 +36,9 @@ def get_device_uuid():
     command = "adb devices"
     result = _run_command_and_get_stout(command)
     # ['List of devices attached', '08e7c5997d2a\tdevice', 'emulator-5554\tdevice', '', '']
-    device_list = result.split("\r\n")
+    # 可能是新版本python3.8.1的原因,下方result.split('\r\n')去掉\r
+    device_list = result.split("\n")
+    print(device_list)
     for item in device_list:  # 遍历adb devices 输出的内容
         if item.find("\t") != -1:  # 获取设备信息
             temp = item.split("\t")
@@ -65,3 +67,12 @@ def _run_command_and_get_stout(command):
     result = result.strip("\r\n")  # 去掉首尾的换行回车
     # print(result)
     return result
+
+
+if __name__ == '__main__':
+    res = get_device_uuid()
+    print(res)
+
+
+
+
