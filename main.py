@@ -27,6 +27,7 @@ from common.tools import get_cmd_result
 1. 当前设备是否连接OK
 2. 当前启动参数是否与所连接设配一
 3. 配置工具是否卸载完成
+4. 未设置JAVA环境变量时，在mac上跑自动化，不要手动启动Appium, 要使用命令行 /Applications/Appium.app/Contents/MacOS/Appium 启动Appium再手动开启服务 已设置JAVA环境变量
 
 
 """

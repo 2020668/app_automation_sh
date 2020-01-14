@@ -38,7 +38,6 @@ def get_device_uuid():
     # ['List of devices attached', '08e7c5997d2a\tdevice', 'emulator-5554\tdevice', '', '']
     # 可能是新版本python3.8.1的原因,下方result.split('\r\n')去掉\r
     device_list = result.split("\n")
-    print(device_list)
     for item in device_list:  # 遍历adb devices 输出的内容
         if item.find("\t") != -1:  # 获取设备信息
             temp = item.split("\t")
