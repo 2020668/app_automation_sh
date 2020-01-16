@@ -1,0 +1,43 @@
+INFO     root:basepage.py:42 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:04.242000
+INFO     root:basepage.py:42 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.127000
+INFO     root:basepage.py:79 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功
+INFO     root:basepage.py:148 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：18971335952 成功！
+INFO     root:basepage.py:42 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:00.592000
+INFO     root:basepage.py:79 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功
+INFO     root:basepage.py:148 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值：111111 成功！
+INFO     root:basepage.py:42 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:00.564000
+INFO     root:basepage.py:79 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功
+INFO     root:basepage.py:121 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+INFO     root:basepage.py:42 等待 账单按钮  元素  ('-android uiautomator', 'new UiSelector().text("账单")') 可见成功。耗时：0:00:00.313000
+INFO     root:basepage.py:42 等待 账单按钮  元素  ('-android uiautomator', 'new UiSelector().text("账单")') 可见成功。耗时：0:00:00.216000
+INFO     root:basepage.py:79 查找  账单按钮 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 成功
+INFO     root:basepage.py:121 点击  账单按钮 元素 ('-android uiautomator', 'new UiSelector().text("账单")') 成功！
+INFO     root:basepage.py:42 等待 筛选按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 可见成功。耗时：0:00:00.129000
+INFO     root:basepage.py:42 等待 筛选按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 可见成功。耗时：0:00:00.093000
+INFO     root:basepage.py:79 查找  筛选按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 成功
+INFO     root:basepage.py:121 点击  筛选按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_title_zhangdan') 成功！
+INFO     root:basepage.py:42 等待 时间描述-->本月  元素  ('-android uiautomator', 'new UiSelector().text("本月")') 可见成功。耗时：0:00:01.254000
+INFO     root:basepage.py:42 等待 时间描述-->本月  元素  ('-android uiautomator', 'new UiSelector().text("本月")') 可见成功。耗时：0:00:00.206000
+INFO     root:basepage.py:79 查找  时间描述-->本月 元素 ('-android uiautomator', 'new UiSelector().text("本月")') 成功
+INFO     root:basepage.py:121 点击  时间描述-->本月 元素 ('-android uiautomator', 'new UiSelector().text("本月")') 成功！
+INFO     root:basepage.py:42 等待 开始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 可见成功。耗时：0:00:00.157000
+INFO     root:basepage.py:57 等待 开始时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 存在成功。耗时：0:00:00.087000
+INFO     root:basepage.py:79 查找  开始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 成功
+INFO     root:basepage.py:185 获取 开始时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_start_time') 的文本值为:2020-01-01 00:00
+INFO     root:basepage.py:42 等待 结束时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 可见成功。耗时：0:00:00.106000
+INFO     root:basepage.py:57 等待 结束时间  元素  ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 存在成功。耗时：0:00:00.096000
+INFO     root:basepage.py:79 查找  结束时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 成功
+INFO     root:basepage.py:185 获取 结束时间 元素 ('id', 'com.cashier.jiutongshanghu:id/nct_end_time') 的文本值为:2020-01-16 13:59
+INFO     root:basepage.py:42 等待 全部终端 按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_equipment') 可见成功。耗时：0:00:00.113000
+INFO     root:basepage.py:42 等待 全部终端 按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/tv_equipment') 可见成功。耗时：0:00:00.120000
+INFO     root:basepage.py:79 查找  全部终端 按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_equipment') 成功
+INFO     root:basepage.py:121 点击  全部终端 按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/tv_equipment') 成功！
+ERROR    root:basepage.py:36 等待元素 ('-android uiautomator', 'new UiSelector().text("收款1号机")') 可见 失败！
+Traceback (most recent call last):
+  File "D:\PycharmProjects\app_automation_sh\common\basepage.py", line 33, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, frequency).until(ec.visibility_of_element_located(loc))
+  File "C:\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     root:basepage.py:202 截图成功，截图存放在：D:\PycharmProjects\app_automation_sh\output/screenshots\终端-->收款1号机_2020-01-16 14_00_23.png

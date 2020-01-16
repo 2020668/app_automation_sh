@@ -44,7 +44,6 @@ success_data = [
 
 # 主门店 筛选条件组合 子门店的数据加上主门店的数据一起 list相加
 def order_main_screen_data():
-    data = []
 
     # 主门店筛选 全部门店 * 全部终端 72
     # time_list = ["本月", "近7天", "近24小时", {"time_start": "2019-12-10 08:03", "time_end": "2020-01-07 06:00"}]
@@ -76,41 +75,18 @@ def order_main_screen_data():
     # status_list = ["全部订单", "支付成功", "退款成功"]
 
     # 调试数据
-    time_list = [{"time_start": "2019-12-10 08:03", "time_end": "2020-01-07 06:00"}]
+    time_list = ["本月", "近7天", "近24小时"]
     store_list = [{"name": "吉野家日式料理店", "id": "2019121716261782222"}]
     terminal_list = ["全部终端"]
-    payment_list = ["全部"]
-    status_list = ["全部订单", "支付成功"]
+    payment_list = ["全部", "微信", "支付宝", "刷卡", "预授权", "其他"]
+    status_list = ["全部订单", "支付成功", "退款成功"]
 
-    for time in time_list:
-        for store in store_list:
-            for terminal in terminal_list:
-                for payment in payment_list:
-                    for status in status_list:
-                        res = {"login_phone": "18971335925",
-                               "login_pwd": "335925",
-                               "main_store_name": "吉野家日式料理店",
-                               "store_name": store["name"] if type(store) is dict else store,
-                               "store_id": store["id"] if type(store) is dict else None,
-                               "time_desc": time if type(time) is str else None,
-                               "time_start": time["time_start"] if type(time) is dict else None,
-                               "time_end": time["time_end"] if type(time) is dict else None,
-                               "terminal_type": "指定终端" if type(terminal) is dict else terminal,
-                               "terminal_name": terminal["name"] if type(terminal) is dict else None,
-                               "terminal_id": terminal["terminal_id"] if type(terminal) is dict else None,
-                               "type_source": payment,
-                               "status": status
-                               }
-
-                        data.append(res)
-    logging.info("测试数据: {}".format(data))
-    logging.info("账单筛选测试数据量: {}".format(len(data)))
-    return data
+    return composite_data(login_phone='18971335925', login_pwd='335925', time_list=time_list,
+                          terminal_list=terminal_list, payment_list=payment_list, status_list=status_list)
 
 
 # 子门店 筛选条件组合 子门店的数据加上主门店的数据一起 list相加
 def order_child_screen_data():
-    data = []
 
     # 子门店筛选 没有门店可选  144
     # time_list = ["本月", "近7天", "近24小时", {"time_start": "2019-12-10 08:03", "time_end": "2020-01-07 06:00"}]
@@ -119,78 +95,36 @@ def order_child_screen_data():
     # status_list = ["全部订单", "支付成功", "退款成功"]
 
     # 调试数据
-    time_list = ["本月"]
+    time_list = ["本月", "近7天", "近24小时"]
     terminal_list = ["全部终端", {"name": "收款1号机", "terminal_id": "qr_pay:NO_2018122515457307773472"}]
-    payment_list = ["全部", "微信", ]
+    payment_list = ["全部", "微信", "支付宝", "刷卡", "预授权", "其他"]
     status_list = ["全部订单", "支付成功", "退款成功"]
 
-    for time in time_list:
-        for terminal in terminal_list:
-            for payment in payment_list:
-                for status in status_list:
-                    res = {"login_phone": "18971330001",
-                           "login_pwd": "123456",
-                           "main_store_name": "吉野家日式料理店",
-                           "store_name": None,
-                           "store_id": None,
-                           "time_desc": time if type(time) is str else None,
-                           "time_start": time["time_start"] if type(time) is dict else None,
-                           "time_end": time["time_end"] if type(time) is dict else None,
-                           "terminal_type": "指定终端" if type(terminal) is dict else terminal,
-                           "terminal_name": terminal["name"] if type(terminal) is dict else None,
-                           "terminal_id": terminal["terminal_id"] if type(terminal) is dict else None,
-                           "type_source": payment,
-                           "status": status
-                           }
-                    data.append(res)
-    logging.info("测试数据: {}".format(data))
-    logging.info("账单筛选测试数据量: {}".format(len(data)))
-    return data
+    return composite_data(login_phone='18971330001', login_pwd='123456', time_list=time_list,
+                          terminal_list=terminal_list, payment_list=payment_list, status_list=status_list)
 
 
 # 主门店收银员 筛选条件组合 子门店的数据加上主门店的数据一起 list相加
 def order_main_cashier_screen_data():
-    data = []
 
     # 主门店收银员 筛选 没有门店可选  144
-    # time_list = ["本月", "近7天", "近24小时", {"time_start": "2019-12-10 08:03", "time_end": "2020-01-07 06:00"}]
-    # terminal_list = ["全部终端", {"name": "收款一号机", "terminal_id": "qr_pay:NO_2018122515457307981444"}]
-    # payment_list = ["全部", "微信", "支付宝", "刷卡", "预授权", "其他"]
-    # status_list = ["全部订单", "支付成功", "退款成功"]
+    time_list = ["本月", "近7天", "近24小时", {"time_start": "2019-12-10 08:03", "time_end": "2020-01-07 06:00"}]
+    terminal_list = ["全部终端", {"name": "收款一号机", "terminal_id": "qr_pay:NO_2018122515457307981444"}]
+    payment_list = ["全部", "微信", "支付宝", "刷卡", "预授权", "其他"]
+    status_list = ["全部订单", "支付成功", "退款成功"]
 
     # 调试数据
-    time_list = ["本月", "近7天", "近24小时"]
-    terminal_list = ["全部终端", {"name": "收款一号机", "terminal_id": "qr_pay:NO_2018122515457307981444"}]
-    payment_list = ["全部", "微信"]
-    status_list = ["全部订单"]
+    # time_list = ["本月", "近7天", "近24小时"]
+    # terminal_list = ["全部终端", {"name": "收款一号机", "terminal_id": "qr_pay:NO_2018122515457307981444"}]
+    # payment_list = ["全部", "微信"]
+    # status_list = ["全部订单"]
 
-    for time in time_list:
-        for terminal in terminal_list:
-            for payment in payment_list:
-                for status in status_list:
-                    res = {"login_phone": "18971335952",
-                           "login_pwd": "111111",
-                           "main_store_name": "吉野家日式料理店",
-                           "store_name": None,
-                           "store_id": None,
-                           "time_desc": time if type(time) is str else None,
-                           "time_start": time["time_start"] if type(time) is dict else None,
-                           "time_end": time["time_end"] if type(time) is dict else None,
-                           "terminal_type": "指定终端" if type(terminal) is dict else terminal,
-                           "terminal_name": terminal["name"] if type(terminal) is dict else None,
-                           "terminal_id": terminal["terminal_id"] if type(terminal) is dict else None,
-                           "type_source": payment,
-                           "status": status
-                           }
-                    data.append(res)
-    logging.info("测试数据: {}".format(data))
-    logging.info("账单筛选测试数据量: {}".format(len(data)))
-    return data
+    return composite_data(login_phone='18971335952', login_pwd='123456', time_list=time_list,
+                          terminal_list=terminal_list, payment_list=payment_list, status_list=status_list)
 
 
 # 子门店收银员 筛选条件组合 子门店的数据加上主门店的数据一起 list相加
 def order_child_cashier_screen_data():
-    data = []
 
     # 子门店收银员 筛选 没有门店可选  144
     # time_list = ["本月", "近7天", "近24小时", {"time_start": "2019-12-10 08:03", "time_end": "2020-01-07 06:00"}]
@@ -204,12 +138,18 @@ def order_child_cashier_screen_data():
     payment_list = ["全部", "微信", "支付宝", "刷卡", "预授权", "其他"]
     status_list = ["全部订单", "支付成功", "退款成功"]
 
+    return composite_data(login_phone='18971330010', login_pwd='123456', time_list=time_list,
+                          terminal_list=terminal_list, payment_list=payment_list, status_list=status_list)
+
+
+def composite_data(login_phone, login_pwd, time_list, terminal_list, payment_list, status_list):
+    data = list()
     for time in time_list:
         for terminal in terminal_list:
             for payment in payment_list:
                 for status in status_list:
-                    res = {"login_phone": "18971330010",
-                           "login_pwd": "123456",
+                    res = {"login_phone": login_phone,
+                           "login_pwd": login_pwd,
                            "main_store_name": "吉野家日式料理店",
                            "store_name": None,
                            "store_id": None,
@@ -230,11 +170,14 @@ def order_child_cashier_screen_data():
 
 # screen_data = order_main_screen_data()
 # screen_data = order_child_screen_data()
-# screen_data = order_child_cashier_screen_data()
-screen_data = order_main_cashier_screen_data()
+screen_data = order_child_cashier_screen_data()
+# screen_data = order_main_cashier_screen_data()
 
 
 if __name__ == '__main__':
-    result = order_main_screen_data()
+    result = order_main_cashier_screen_data()
     print(result)
     print(len(result))
+
+
+
