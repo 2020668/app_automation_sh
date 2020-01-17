@@ -45,12 +45,10 @@ if __name__ == '__main__':
     -x 报错时停止
     """
     pytest.main(
-        ["-s", "-x", "-m", "screen", "--html=output/reports/report.html", "--alluredir=output/allure"])
+        ["-s", "-v", "-m", "screen", "--html=output/reports/report.html", "--alluredir=output/allure"])
 
     # 直接打开报告
     os.system("allure serve output/allure")
 
     # print("error")
     # SendEmail.send_qq1_file_mail(mail_title, mail_message, file_path)
-
-
