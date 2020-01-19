@@ -1,0 +1,19 @@
+INFO     root:basepage.py:42 等待 登录页_等待用户名元素可见  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:04.104000
+INFO     root:basepage.py:42 等待 登录页_输入用户名  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 可见成功。耗时：0:00:00.113000
+INFO     root:basepage.py:79 查找  登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 成功
+INFO     root:basepage.py:148 在 登录页_输入用户名 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_phone') 上输入文本值：18971330010 成功！
+INFO     root:basepage.py:42 等待 登录页_输入密码  元素  ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 可见成功。耗时：0:00:00.561000
+INFO     root:basepage.py:79 查找  登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 成功
+INFO     root:basepage.py:148 在 登录页_输入密码 元素 ('id', 'com.cashier.jiutongshanghu:id/ed_login_password') 上输入文本值：123456 成功！
+INFO     root:basepage.py:42 等待 登录页_点击登录按钮  元素  ('id', 'com.cashier.jiutongshanghu:id/but_login') 可见成功。耗时：0:00:00.596000
+INFO     root:basepage.py:79 查找  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功
+INFO     root:basepage.py:121 点击  登录页_点击登录按钮 元素 ('id', 'com.cashier.jiutongshanghu:id/but_login') 成功！
+ERROR    root:basepage.py:36 等待元素 ('-android uiautomator', 'new UiSelector().text("账单")') 可见 失败！
+Traceback (most recent call last):
+  File "D:\PycharmProjects\app_automation_sh\common\basepage.py", line 33, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, frequency).until(ec.visibility_of_element_located(loc))
+  File "C:\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     root:basepage.py:202 截图成功，截图存放在：D:\PycharmProjects\app_automation_sh\output/screenshots\账单按钮_2020-01-19 16_15_27.png
