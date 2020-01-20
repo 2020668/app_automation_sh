@@ -174,10 +174,10 @@ def composite_data(login_phone, login_pwd, time_list, terminal_list, payment_lis
 # screen_data = order_main_cashier_screen_data()
 
 screen_data = list()
-# screen_data += order_main_screen_data()
-# screen_data += order_child_screen_data()
+screen_data += order_main_screen_data()
+screen_data += order_child_screen_data()
 screen_data += order_child_cashier_screen_data()
-# screen_data += order_main_cashier_screen_data()
+screen_data += order_main_cashier_screen_data()
 
 
 if __name__ == '__main__':
