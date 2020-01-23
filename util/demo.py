@@ -14,6 +14,8 @@ E-mail:keen2020@outlook.com
 # print(a < b)
 
 from decimal import Decimal
+import os
+
 
 # a = "0.01"
 # b = "0.02"
@@ -137,5 +139,11 @@ def a1():
 
 if __name__ == '__main__':
     # relative_position()
-    a1()
+    # a = os.popen("allure serve output/allure")
+    a = os.system("adb devices")
+    print(type(a))
+
+    print('a的值为', a)
+
+
 
