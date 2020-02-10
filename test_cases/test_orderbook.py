@@ -104,6 +104,6 @@ class TestOrderBook(object):
 
         assert screen_result["screen_result_refund_amount"] == api_res["refund_amount"]
 
-        uninstall_appium_settings()
-        uninstall_uiautomator2()
+        # uninstall_appium_settings()
+        # uninstall_uiautomator2()
 

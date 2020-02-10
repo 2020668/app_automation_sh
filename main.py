@@ -45,7 +45,7 @@ if __name__ == '__main__':
     -x 报错时停止
     """
     pytest.main(
-        ["-s", "-v", "-m", "screen", "--html=output/reports/report.html", "--alluredir=output/allure"])
+        ["-s", "-x", "-m", "screen", "--html=output/reports/report.html", "--alluredir=output/allure"])
 
     # 直接打开报告
     os.system("allure serve output/allure")
